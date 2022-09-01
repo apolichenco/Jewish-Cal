@@ -7,7 +7,8 @@ function Table({daysData}) {
   const [hebdate, setheadebdate] = useState([])
   const [holiday, setheadoliday] = useState([])
   const [parashat, setParashat] = useState([])
-  const [roshchodesh, setRoshchodesh] = useState([])
+  // const [roshchodesh, setRoshchodesh] = useState()
+
 
   useEffect (() => {
     setheadebdate(daysData.filter((day) => day.category === "hebdate"))
@@ -18,11 +19,16 @@ function Table({daysData}) {
   useEffect (() => {
     setParashat(daysData.filter((day) => day.category === "parashat"))
   }, [daysData])
-  useEffect (() => {
-    setRoshchodesh(daysData.filter((day) => day.category === "roshchodesh"))
-  }, [daysData])
+  // useEffect (() => {
+  //   setRoshchodesh(daysData.filter((day) => day.category === "roshchodesh"))
+  // }, [daysData])
 
-  const slicedArray = hebdate.slice(0, 7);
+
+  const firstWeek = hebdate.slice(0, 7);
+  const secondWeek = hebdate.slice(7, 14);
+  const thirdWeek = hebdate.slice(14, 21);
+  const fourthWeek = hebdate.slice(21, 28);
+  const lastWeek = hebdate.slice(28);
 
   return (
     <div className='app'>
@@ -40,7 +46,27 @@ function Table({daysData}) {
         </thead>
         <tbody>
           <tr>
-            {slicedArray.map((day, index) => {
+            {firstWeek.map((day, index) => {
+              return <Day key={index} day={day} holiday={holiday} parsha={parashat}/>
+            })}
+          </tr>
+          <tr>
+            {secondWeek.map((day, index) => {
+              return <Day key={index} day={day} holiday={holiday} parsha={parashat}/>
+            })}
+          </tr>
+          <tr>
+            {thirdWeek.map((day, index) => {
+              return <Day key={index} day={day} holiday={holiday} parsha={parashat}/>
+            })}
+          </tr>
+          <tr>
+            {fourthWeek.map((day, index) => {
+              return <Day key={index} day={day} holiday={holiday} parsha={parashat}/>
+            })}
+          </tr>
+          <tr>
+            {lastWeek.map((day, index) => {
               return <Day key={index} day={day} holiday={holiday} parsha={parashat}/>
             })}
           </tr>

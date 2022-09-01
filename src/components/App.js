@@ -21,7 +21,7 @@ function App() {
       <Header />
       <Switch>
         <Route path="/events">
-          <EventsList />
+          <EventsList daysData={days}/>
         </Route>
         <Route path="/add-event">
           <AddEventForm />

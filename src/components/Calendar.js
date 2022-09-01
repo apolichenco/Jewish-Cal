@@ -16,25 +16,18 @@ function Calendar({daysData}) {
   useEffect (() => {
     setHoliday(daysData.filter((day) => day.category === "holiday"))
   }, [])
-  useEffect (() => {
-    setCandles(daysData.filter((day) => day.category === "candles"))
-  }, [])
-  useEffect (() => {
-    setZmanim(daysData.filter((day) => day.category === "zmanim"))
-  }, [])
+  // useEffect (() => {
+  //   setCandles(daysData.filter((day) => day.category === "candles"))
+  // }, [])
+  // useEffect (() => {
+  //   setZmanim(daysData.filter((day) => day.category === "zmanim"))
+  // }, [])
   useEffect (() => {
     setParashat(daysData.filter((day) => day.category === "parashat"))
   }, [])
   useEffect (() => {
     setRoshchodesh(daysData.filter((day) => day.category === "roshchodesh"))
   }, [])
-
-  console.log(hebdate)
-  console.log(holiday)
-  console.log(candles)
-  console.log(zmanim)
-  console.log(roshchodesh)
-  console.log(parashat)
 
 
   return (

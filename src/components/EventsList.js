@@ -5,7 +5,7 @@ function EventList({daysData}) {
   const [bigDays, setBigDays] = useState([])
 
   useEffect (() => {
-    setBigDays(daysData.filter((day) => day.category === "holiday" || day.category === "parashat"))
+    setBigDays(daysData.filter((day) => day.category === "holiday" || day.category === "parashat" ||))
   }, [daysData])
 
   return (

@@ -1,26 +1,16 @@
 {
   "dates": [
     {
-      "id": 20220925,
-      "hebrewDate": "29 Elul 5782",
-      "dateInHebrew": "כ״ט אלול",
-      "holiday": "Erev Rosh Hashana"
-    },
-    {
-      "id": 20220930,
-      "hebrewDate": "5 Tishrei 5783",
-      "dateInHebrew": "ה׳ תשרי"
-    },
-    {
-      "id": 20220929,
-      "hebrewDate": "4 Tishrei 5783",
-      "dateInHebrew": "ד׳ תשרי"
-    },
-    {
       "id": 20220927,
       "hebrewDate": "2 Tishrei 5783",
       "dateInHebrew": "ב׳ תשרי",
       "holiday": "Rosh Hashana II"
+    },
+    {
+      "id": 20220925,
+      "hebrewDate": "29 Elul 5782",
+      "dateInHebrew": "כ״ט אלול",
+      "holiday": "Erev Rosh Hashana"
     },
     {
       "id": 20220926,
@@ -34,11 +24,27 @@
       "dateInHebrew": "ז׳ תשרי"
     },
     {
+      "id": 20220928,
+      "hebrewDate": "3 Tishrei 5783",
+      "dateInHebrew": "ג׳ תשרי",
+      "holiday": "Tzom Gedaliah"
+    },
+    {
+      "id": 20220929,
+      "hebrewDate": "4 Tishrei 5783",
+      "dateInHebrew": "ד׳ תשרי"
+    },
+    {
       "id": 20221001,
       "hebrewDate": "6 Tishrei 5783",
       "dateInHebrew": "ו׳ תשרי",
       "holiday": "Shabbat Shuva",
       "parsha": "Parashat Vayeilech"
+    },
+    {
+      "id": 20220930,
+      "hebrewDate": "5 Tishrei 5783",
+      "dateInHebrew": "ה׳ תשרי"
     },
     {
       "id": 20221003,
@@ -58,22 +64,14 @@
       "holiday": "Yom Kippur"
     },
     {
-      "id": 20221008,
-      "hebrewDate": "13 Tishrei 5783",
-      "dateInHebrew": "י״ג תשרי",
-      "parsha": "Parashat Ha'Azinu"
+      "id": 20221006,
+      "hebrewDate": "11 Tishrei 5783",
+      "dateInHebrew": "י״א תשרי"
     },
     {
-      "id": 20221009,
-      "hebrewDate": "14 Tishrei 5783",
-      "dateInHebrew": "י״ד תשרי",
-      "holiday": "Erev Sukkot"
-    },
-    {
-      "id": 20220928,
-      "hebrewDate": "3 Tishrei 5783",
-      "dateInHebrew": "ג׳ תשרי",
-      "holiday": "Tzom Gedaliah"
+      "id": 20221007,
+      "hebrewDate": "12 Tishrei 5783",
+      "dateInHebrew": "י״ב תשרי"
     },
     {
       "id": 20221010,
@@ -88,16 +86,28 @@
       "holiday": "Sukkot II"
     },
     {
-      "id": 20221012,
-      "hebrewDate": "17 Tishrei 5783",
-      "dateInHebrew": "י״ז תשרי",
-      "holiday": "Sukkot III (CH''M)"
+      "id": 20221009,
+      "hebrewDate": "14 Tishrei 5783",
+      "dateInHebrew": "י״ד תשרי",
+      "holiday": "Erev Sukkot"
+    },
+    {
+      "id": 20221008,
+      "hebrewDate": "13 Tishrei 5783",
+      "dateInHebrew": "י״ג תשרי",
+      "parsha": "Parashat Ha'Azinu"
     },
     {
       "id": 20221013,
       "hebrewDate": "18 Tishrei 5783",
       "dateInHebrew": "י״ח תשרי",
       "holiday": "Sukkot IV (CH''M)"
+    },
+    {
+      "id": 20221012,
+      "hebrewDate": "17 Tishrei 5783",
+      "dateInHebrew": "י״ז תשרי",
+      "holiday": "Sukkot III (CH''M)"
     },
     {
       "id": 20221014,
@@ -124,34 +134,10 @@
       "holiday": "Shmini Atzeret"
     },
     {
-      "id": 20221023,
-      "hebrewDate": "28 Tishrei 5783",
-      "dateInHebrew": "כ״ח תשרי"
-    },
-    {
-      "id": 20221007,
-      "hebrewDate": "12 Tishrei 5783",
-      "dateInHebrew": "י״ב תשרי"
-    },
-    {
-      "id": 20221006,
-      "hebrewDate": "11 Tishrei 5783",
-      "dateInHebrew": "י״א תשרי"
-    },
-    {
-      "id": 20221024,
-      "hebrewDate": "29 Tishrei 5783",
-      "dateInHebrew": "כ״ט תשרי"
-    },
-    {
-      "id": 20221025,
-      "hebrewDate": "30 Tishrei 5783",
-      "dateInHebrew": "ל׳ תשרי"
-    },
-    {
-      "id": 20221021,
-      "hebrewDate": "26 Tishrei 5783",
-      "dateInHebrew": "כ״ו תשרי"
+      "id": 20221018,
+      "hebrewDate": "23 Tishrei 5783",
+      "dateInHebrew": "כ״ג תשרי",
+      "holiday": "Simchat Torah"
     },
     {
       "id": 20221019,
@@ -164,16 +150,31 @@
       "dateInHebrew": "כ״ה תשרי"
     },
     {
+      "id": 20221021,
+      "hebrewDate": "26 Tishrei 5783",
+      "dateInHebrew": "כ״ו תשרי"
+    },
+    {
       "id": 20221022,
       "hebrewDate": "27 Tishrei 5783",
       "dateInHebrew": "כ״ז תשרי",
       "parsha": "Parashat Bereshit"
     },
     {
-      "id": 20221018,
-      "hebrewDate": "23 Tishrei 5783",
-      "dateInHebrew": "כ״ג תשרי",
-      "holiday": "Simchat Torah"
+      "id": 20221023,
+      "hebrewDate": "28 Tishrei 5783",
+      "dateInHebrew": "כ״ח תשרי"
+    },
+    {
+      "id": 20221024,
+      "hebrewDate": "29 Tishrei 5783",
+      "dateInHebrew": "כ״ט תשרי"
+    },
+    {
+      "id": 20221025,
+      "hebrewDate": "30 Tishrei 5783",
+      "dateInHebrew": "ל׳ תשרי",
+      "roshChodesh": "Rosh Chodesh Cheshvan"
     }
   ]
 }

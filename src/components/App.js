@@ -12,7 +12,9 @@ function App() {
   useEffect (() => {
     fetch("http://localhost:3000/dates/")
     .then((r) => r.json())
-    .then((data) => setOurOwn(data))
+    .then((data) => {
+      const sortedOurOwn = data.sort((a, b) => a.id - b.id);
+      setOurOwn(sortedOurOwn)})
   }, [])
 
   return (
@@ -20,7 +22,7 @@ function App() {
       <Header />
       <Switch>
         <Route path="/events">
-          <EventsList />
+          <EventsList ourOwn={ourOwn}/>
         </Route>
         <Route path="/add-event">
           <AddEventForm />

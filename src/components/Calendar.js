@@ -3,20 +3,18 @@ import Day from "./Day";
 
 
 function Calendar({ourOwn}) {
-  const [inOrder, setInOrder] = useState([])
+  // const [inOrder, setInOrder] = useState([])
   
-    useEffect (() => {
-      const sortedOurOwn = ourOwn.sort((a, b) => a.id - b.id);
-      setInOrder(sortedOurOwn)
-  }, [ourOwn])
+  //   useEffect (() => {
+  //     const sortedOurOwn = ourOwn.sort((a, b) => a.id - b.id);
+  //     setInOrder(sortedOurOwn)
+  // }, [ourOwn])
 
-  const firstWeek = inOrder.slice(0, 7);
-  const secondWeek = inOrder.slice(7, 14);
-  const thirdWeek = inOrder.slice(14, 21);
-  const fourthWeek = inOrder.slice(21, 28);
-  const lastWeek = inOrder.slice(28);
-
-  console.log(inOrder)
+  const firstWeek = ourOwn.slice(0, 7);
+  const secondWeek = ourOwn.slice(7, 14);
+  const thirdWeek = ourOwn.slice(14, 21);
+  const fourthWeek = ourOwn.slice(21, 28);
+  const lastWeek = ourOwn.slice(28);
 
   return (
     <div className='app'>

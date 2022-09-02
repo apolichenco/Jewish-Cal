@@ -3,7 +3,7 @@ import Calendar from "./Calendar";
 import Header from "./Header";
 import EventsList from "./EventsList"
 import AddEventForm from "./AddEventForm"
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import { Route, Switch} from "react-router-dom"
  
 function App() {
@@ -26,7 +26,7 @@ function App() {
         <Route path="/add-event">
           <AddEventForm />
         </Route>
-        <Route path="/">
+        <Route exact path="/">
           <Calendar daysData={days}/>
         </Route>
       </Switch>

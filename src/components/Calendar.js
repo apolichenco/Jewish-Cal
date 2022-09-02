@@ -9,6 +9,8 @@ function Calendar({daysData}) {
   // const [roshchodesh, setRoshchodesh] = useState()
 
 
+
+
   useEffect (() => {
     setheadebdate(daysData.filter((day) => day.category === "hebdate"))
   }, [daysData])
@@ -22,6 +24,26 @@ function Calendar({daysData}) {
   //   setRoshchodesh(daysData.filter((day) => day.category === "roshchodesh"))
   // }, [daysData])
 
+
+// hebdate.map((day) => {
+  // console.log(day)
+  // const dayData = {
+  //   id: day.date,
+  //   hebrewDate: day.hdate,
+  //   dateInHebrew: day.hebrew,
+  // }
+  // console.log(dayData)
+  fetch("http://localhost:3000/posts")
+  // , {
+    // method: "POST",
+    // headers: {
+    //   "Content-Type": "application/json",
+    // },
+    // body: JSON.stringify(dayData)
+  // })
+  .then((r) => r.json())
+  .then((data) => console.log(data))
+// })
 
   const firstWeek = hebdate.slice(0, 7);
   const secondWeek = hebdate.slice(7, 14);

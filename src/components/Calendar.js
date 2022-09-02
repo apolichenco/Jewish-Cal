@@ -24,26 +24,58 @@ function Calendar({daysData}) {
   //   setRoshchodesh(daysData.filter((day) => day.category === "roshchodesh"))
   // }, [daysData])
 
+  useEffect (() => {
+    hebdate.map((day) => {
+      console.log(day)
+      const dayData = {
+        id: day.date,
+        hebrewDate: day.hdate,
+        dateInHebrew: day.hebrew,
+      }
+      fetch("http://localhost:3000/dates", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(dayData)
+      })
+      .then((r) => r.json())
+      .then((data) => console.log(data))
+    })
+  }, [])
 
-// hebdate.map((day) => {
-  // console.log(day)
-  // const dayData = {
-  //   id: day.date,
-  //   hebrewDate: day.hdate,
-  //   dateInHebrew: day.hebrew,
-  // }
-  // console.log(dayData)
-  fetch("http://localhost:3000/posts")
-  // , {
-    // method: "POST",
-    // headers: {
-    //   "Content-Type": "application/json",
-    // },
-    // body: JSON.stringify(dayData)
-  // })
-  .then((r) => r.json())
-  .then((data) => console.log(data))
-// })
+  useEffect (() => {
+    holiday.map((yomTov) => {
+      fetch(`http://localhost:3000/dates/${yomTov.date}`, {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          holiday: yomTov.title
+        })
+      })
+      .then((r) => r.json())
+      .then((data) => console.log(data))
+    })
+  }, [])
+
+    useEffect (() => {
+    parashat.map((parsha) => {
+      fetch(`http://localhost:3000/dates/${parsha.date}`, {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          parsha: parsha.title
+        })
+      })
+      .then((r) => r.json())
+      .then((data) => console.log(data))
+    })
+  }, [])
+
 
   const firstWeek = hebdate.slice(0, 7);
   const secondWeek = hebdate.slice(7, 14);

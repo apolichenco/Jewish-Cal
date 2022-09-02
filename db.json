@@ -1,19 +1,179 @@
 {
-  "posts": [
+  "dates": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "id": "2022-09-26",
+      "hebrewDate": "1 Tishrei 5783",
+      "dateInHebrew": "א׳ תשרי תשפ״ג",
+      "holiday": "Rosh Hashana 5783"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": "2022-09-25",
+      "hebrewDate": "29 Elul 5782",
+      "dateInHebrew": "כ״ט אלול",
+      "holiday": "Erev Rosh Hashana"
+    },
+    {
+      "id": "2022-09-27",
+      "hebrewDate": "2 Tishrei 5783",
+      "dateInHebrew": "ב׳ תשרי",
+      "holiday": "Rosh Hashana II"
+    },
+    {
+      "id": "2022-09-30",
+      "hebrewDate": "5 Tishrei 5783",
+      "dateInHebrew": "ה׳ תשרי"
+    },
+    {
+      "id": "2022-09-28",
+      "hebrewDate": "3 Tishrei 5783",
+      "dateInHebrew": "ג׳ תשרי",
+      "holiday": "Tzom Gedaliah"
+    },
+    {
+      "id": "2022-09-29",
+      "hebrewDate": "4 Tishrei 5783",
+      "dateInHebrew": "ד׳ תשרי"
+    },
+    {
+      "id": "2022-10-01",
+      "hebrewDate": "6 Tishrei 5783",
+      "dateInHebrew": "ו׳ תשרי",
+      "holiday": "Shabbat Shuva",
+      "parsha": "Parashat Vayeilech"
+    },
+    {
+      "id": "2022-10-07",
+      "hebrewDate": "12 Tishrei 5783",
+      "dateInHebrew": "י״ב תשרי"
+    },
+    {
+      "id": "2022-10-03",
+      "hebrewDate": "8 Tishrei 5783",
+      "dateInHebrew": "ח׳ תשרי"
+    },
+    {
+      "id": "2022-10-04",
+      "hebrewDate": "9 Tishrei 5783",
+      "dateInHebrew": "ט׳ תשרי",
+      "holiday": "Erev Yom Kippur"
+    },
+    {
+      "id": "2022-10-05",
+      "hebrewDate": "10 Tishrei 5783",
+      "dateInHebrew": "י׳ תשרי",
+      "holiday": "Yom Kippur"
+    },
+    {
+      "id": "2022-10-02",
+      "hebrewDate": "7 Tishrei 5783",
+      "dateInHebrew": "ז׳ תשרי"
+    },
+    {
+      "id": "2022-10-06",
+      "hebrewDate": "11 Tishrei 5783",
+      "dateInHebrew": "י״א תשרי"
+    },
+    {
+      "id": "2022-10-08",
+      "hebrewDate": "13 Tishrei 5783",
+      "dateInHebrew": "י״ג תשרי",
+      "parsha": "Parashat Ha'Azinu"
+    },
+    {
+      "id": "2022-10-09",
+      "hebrewDate": "14 Tishrei 5783",
+      "dateInHebrew": "י״ד תשרי",
+      "holiday": "Erev Sukkot"
+    },
+    {
+      "id": "2022-10-12",
+      "hebrewDate": "17 Tishrei 5783",
+      "dateInHebrew": "י״ז תשרי",
+      "holiday": "Sukkot III (CH''M)"
+    },
+    {
+      "id": "2022-10-10",
+      "hebrewDate": "15 Tishrei 5783",
+      "dateInHebrew": "ט״ו תשרי",
+      "holiday": "Sukkot I"
+    },
+    {
+      "id": "2022-10-13",
+      "hebrewDate": "18 Tishrei 5783",
+      "dateInHebrew": "י״ח תשרי",
+      "holiday": "Sukkot IV (CH''M)"
+    },
+    {
+      "id": "2022-10-11",
+      "hebrewDate": "16 Tishrei 5783",
+      "dateInHebrew": "ט״ז תשרי",
+      "holiday": "Sukkot II"
+    },
+    {
+      "id": "2022-10-17",
+      "hebrewDate": "22 Tishrei 5783",
+      "dateInHebrew": "כ״ב תשרי",
+      "holiday": "Shmini Atzeret"
+    },
+    {
+      "id": "2022-10-16",
+      "hebrewDate": "21 Tishrei 5783",
+      "dateInHebrew": "כ״א תשרי",
+      "holiday": "Sukkot VII (Hoshana Raba)"
+    },
+    {
+      "id": "2022-10-18",
+      "hebrewDate": "23 Tishrei 5783",
+      "dateInHebrew": "כ״ג תשרי",
+      "holiday": "Simchat Torah"
+    },
+    {
+      "id": "2022-10-19",
+      "hebrewDate": "24 Tishrei 5783",
+      "dateInHebrew": "כ״ד תשרי"
+    },
+    {
+      "id": "2022-10-20",
+      "hebrewDate": "25 Tishrei 5783",
+      "dateInHebrew": "כ״ה תשרי"
+    },
+    {
+      "id": "2022-10-21",
+      "hebrewDate": "26 Tishrei 5783",
+      "dateInHebrew": "כ״ו תשרי"
+    },
+    {
+      "id": "2022-10-22",
+      "hebrewDate": "27 Tishrei 5783",
+      "dateInHebrew": "כ״ז תשרי",
+      "parsha": "Parashat Bereshit"
+    },
+    {
+      "id": "2022-10-23",
+      "hebrewDate": "28 Tishrei 5783",
+      "dateInHebrew": "כ״ח תשרי"
+    },
+    {
+      "id": "2022-10-24",
+      "hebrewDate": "29 Tishrei 5783",
+      "dateInHebrew": "כ״ט תשרי"
+    },
+    {
+      "id": "2022-10-25",
+      "hebrewDate": "30 Tishrei 5783",
+      "dateInHebrew": "ל׳ תשרי"
+    },
+    {
+      "id": "2022-10-14",
+      "hebrewDate": "19 Tishrei 5783",
+      "dateInHebrew": "י״ט תשרי",
+      "holiday": "Sukkot V (CH''M)"
+    },
+    {
+      "id": "2022-10-15",
+      "hebrewDate": "20 Tishrei 5783",
+      "dateInHebrew": "כ׳ תשרי",
+      "holiday": "Sukkot VI (CH''M)"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

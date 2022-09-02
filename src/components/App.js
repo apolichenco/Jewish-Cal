@@ -7,12 +7,19 @@ import AddEventForm from "./AddEventForm"
 import { Route, Switch} from "react-router-dom"
  
 function App() {
-  const [days, setDays] = useState([])
+  // const [days, setDays] = useState([])
+  // const [ourOwn, setOurOwn] = useState([])
   
+  // useEffect (() => {
+  //   fetch("https://www.hebcal.com/hebcal?v=1&cfg=json&maj=on&min=on&mod=off&nx=on&start=2022-09-25&end=2022-10-25&month=x&ss=on&mf=on&c=off&geo=zip&zip=33065&m=0&s=on&leyning=off&d=on&o=on&i=off")
+  //   .then((r) => r.json())
+  //   .then((data) => setDays(data.items))
+  // }, [])
+
   useEffect (() => {
-    fetch("https://www.hebcal.com/hebcal?v=1&cfg=json&maj=on&min=on&mod=off&nx=on&start=2022-09-25&end=2022-10-25&month=x&ss=on&mf=on&c=off&geo=zip&zip=33065&m=0&s=on&leyning=off&d=on&o=on&i=off")
+    fetch("http://localhost:3000/dates")
     .then((r) => r.json())
-    .then((data) => setDays(data.items))
+    .then((data) => setOurOwn(data))
   }, [])
 
 
@@ -27,7 +34,7 @@ function App() {
           <AddEventForm />
         </Route>
         <Route exact path="/">
-          <Calendar daysData={days}/>
+          <Calendar daysData={days} ourOwn={ourOwn}/>
         </Route>
       </Switch>
     </div>

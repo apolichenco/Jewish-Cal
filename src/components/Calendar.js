@@ -2,7 +2,7 @@ import React from "react";
 import Day from "./Day";
 
 
-function Calendar({ourOwn}) {
+function Calendar({ourOwn, goToPreviousMonth, goToNextMonth}) {
 
   function goToPreviousMonth() {
     console.log("HI")

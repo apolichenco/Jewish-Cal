@@ -62,8 +62,7 @@ function AddEventForm({ourOwn, handleNew}) {
           <option value={'Kislev'}>Kislev</option>
           <option value={'Tevet'}>Tevet</option>
           <option value={'Shevat'}>Shevat</option>
-          <option value={'Adar I'}>Adar I</option>
-          <option value={'Adar II'}>Adar II</option>
+          <option value={'Adar'}>Adar</option>
           <option value={'Nissan'}>Nissan</option>
           <option value={'Iyar'}>Iyar</option>
           <option value={'Sivan'}>Sivan</option>         

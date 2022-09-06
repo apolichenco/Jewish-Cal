@@ -11,11 +11,24 @@ function App() {
   const [monthNumber, setMonthNumber] = useState(0)
 
   const months = [
-    
+    "Tishrei",
+    "Cheshvan",
+    "Kislev",
+    "Tevet",
+    "Shvat",
+    "Adar",
+    "Nissan",
+    "Iyar",
+    "Sivan",
+    "Tammuz",
+    "Av",
+    "Elul"
   ]
 
+  
+
   useEffect (() => {
-    fetch("http://localhost:3000/Tishrei")
+    fetch(`http://localhost:3000/${months[monthNumber]}`)
     .then((r) => r.json())
     .then((data) => {
       const sortedOurOwn = data.sort((a, b) => a.id - b.id);
@@ -31,13 +44,21 @@ function App() {
         return day
       }
     })
-    console.log(updatedDays)
     const sortedOurOwn = updatedDays.sort((a, b) => a.id - b.id);
-    console.log(sortedOurOwn)
     setOurOwn(sortedOurOwn)
   }
 
+  function goToPreviousMonth() {
+    if (monthNumber > 0) {
+      setMonthNumber(monthNumber - 1)
+    }
+  }
 
+  function goToNextMonth() {
+    if (monthNumber > 0) {
+      setMonthNumber(monthNumber = 1)
+    }
+  }
 
   return (
     <div>
@@ -50,7 +71,7 @@ function App() {
           <AddEventForm ourOwn={ourOwn} handleNew={handleOurOwn}/>
         </Route>
         <Route exact path="/">
-          <Calendar ourOwn={ourOwn}/>
+          <Calendar ourOwn={ourOwn} goToPreviousMonth={goToPreviousMonth} goToNextMonth={goToNextMonth}/>
         </Route>
       </Switch>
       {/* <AllTheData /> */}

@@ -4,6 +4,14 @@ import Day from "./Day";
 
 function Calendar({ourOwn}) {
 
+  function goToPreviousMonth() {
+    console.log("HI")
+  }
+
+  function goToNextMonth() {
+    console.log("HI")
+  }
+
   const month = []
   ourOwn.forEach((day) => {
     if (day.weekday === "Sunday") {
@@ -15,6 +23,8 @@ function Calendar({ourOwn}) {
 
   return (
     <div className='app'>
+      <button onClick={goToPreviousMonth}>Previous Month</button>
+      <button onClick={goToNextMonth}>Next Month</button>
       <table>
         <thead>
           <tr>

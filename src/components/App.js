@@ -8,9 +8,14 @@ import { Route, Switch} from "react-router-dom"
  
 function App() {
   const [ourOwn, setOurOwn] = useState([])
+  const [monthNumber, setMonthNumber] = useState(0)
+
+  const months = [
+    
+  ]
 
   useEffect (() => {
-    fetch("http://localhost:3000/dates/")
+    fetch("http://localhost:3000/Tishrei")
     .then((r) => r.json())
     .then((data) => {
       const sortedOurOwn = data.sort((a, b) => a.id - b.id);
@@ -48,6 +53,7 @@ function App() {
           <Calendar ourOwn={ourOwn}/>
         </Route>
       </Switch>
+      {/* <AllTheData /> */}
     </div>
   );
 }

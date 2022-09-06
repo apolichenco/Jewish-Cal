@@ -5,12 +5,14 @@ function AllTheData() {
     // const [hebdate, setheadebdate] = useState([])
     // const [holiday, setheadoliday] = useState([])
     // const [parashat, setParashat] = useState([])
-    // const [roshchodesh, setRoshchodesh] = useState()
+    // const [roshchodesh, setRoshchodesh] = useState([])
   
     // useEffect (() => {
-    //   fetch("https://www.hebcal.com/hebcal?v=1&cfg=json&maj=on&min=on&mod=off&nx=on&start=2022-09-25&end=2022-10-25&month=x&ss=on&mf=on&c=off&geo=zip&zip=33065&m=0&s=on&leyning=off&d=on&o=on&i=off")
+    //   fetch("https://www.hebcal.com/hebcal?v=1&cfg=json&maj=on&min=on&mod=off&nx=on&year=5783&yt=H&month=x&ss=on&mf=on&c=off&geo=zip&zip=33065&m=0&s=on&leyning=off&d=on&o=on&i=off")
     //   .then((r) => r.json())
-    //   .then((data) => setDays(data.items))
+    //   .then((data) => {
+    //     console.log(data)
+    //     setDays(data.items)})
     // }, [])
   
   
@@ -27,18 +29,18 @@ function AllTheData() {
     //   setRoshchodesh(days.filter((day) => day.category === "roshchodesh"))
     // }, [days])
     
-
-    // console.log(roshchodesh)
   
     // useEffect (() => {
     //   hebdate.map((day) => {
     //     const dateString = day.date;
     //     const noSpace = dateString.replaceAll('-', '')
     //     const dayNumber = Number(noSpace);
+    //      const thisMonth = day.hdate.slice(2, -4)
     //     const dayData = {
     //       id: dayNumber,
     //       hebrewDate: day.hdate,
     //       dateInHebrew: day.hebrew,
+    //       month: thisMonth
     //     }
     //     fetch("http://localhost:3000/dates/", {
     //       method: "POST",
@@ -48,14 +50,15 @@ function AllTheData() {
     //       body: JSON.stringify(dayData)
     //     })
     //     .then((r) => r.json())
-    //     .then((data) => console.log(data))
+    //     .then((data) => console.log("data"))
     //   })
-    // }, [])
+    // }, [days])
   
     // useEffect (() => {
     //   holiday.map((yomTov) => {
     //     const dateString = yomTov.date;
-    //     const noSpace = dateString.replaceAll('-', '')
+    //     const noSpaces = dateString.replaceAll('-', '')
+    //     const noSpace = noSpaces.slice(0, 8)
     //     const yomTovNumber = Number(noSpace);
     //     fetch(`http://localhost:3000/dates/${yomTovNumber}/`, {
     //       method: "PATCH",
@@ -67,9 +70,9 @@ function AllTheData() {
     //       })
     //     })
     //     .then((r) => r.json())
-    //     .then((data) => console.log(data))
+    //     .then((data) => console.log("data"))
     //   })
-    // }, [])
+    // }, [days])
   
     //   useEffect (() => {
     //   parashat.map((parsha) => {
@@ -86,14 +89,13 @@ function AllTheData() {
     //       })
     //     })
     //     .then((r) => r.json())
-    //     .then((data) => console.log(data))
+    //     .then((data) => console.log("data"))
     //   })
-    // }, [])
+    // }, [days])
 
     // useEffect (() => {
     //     roshchodesh.map((oneMonth) => {
-    //       const dateString = roshchodesh.date;
-    //       console.log(roshchodesh)
+    //       const dateString = oneMonth.date;
     //       const noSpace = dateString.replaceAll('-', '')
     //       const dayNumber = Number(noSpace);
     //       fetch(`http://localhost:3000/dates/${dayNumber}`, {
@@ -102,24 +104,22 @@ function AllTheData() {
     //           "Content-Type": "application/json",
     //         },
     //         body: JSON.stringify({
-    //           roshChodesh: roshchodesh.title
+    //           roshChodesh: oneMonth.title
     //         })
     //       })
     //       .then((r) => r.json())
-    //       .then((data) => console.log(data))
+    //       .then((data) => console.log("data"))
     //     })
-    //   }, [])
+    //   }, [days])
 
     // useEffect (() => {
-    //   ourOwn.map((day) => {
-    //         const dateNumber = day.id.toString()
-    //         const yearNum = dateNumber.substring(0, 4)
-    //         const monthNum = dateNumber.substring(4, 6)
-    //         const dayNum = dateNumber.substring(6, 8)
-    //         const finalDate = new Date (`${yearNum}, ${monthNum}, ${dayNum}`) 
+    //   days.map((day) => {
+    //         const dateString = day.date.slice(0, 8);
+    //         const noSpace = dateString.replaceAll('-', '')
+    //         const finalDate = new Date (dateString.replaceAll('-', ', '))
     //         const options = { weekday: 'long'};
     //         const weekDay = new Intl.DateTimeFormat('en-US', options).format(finalDate);
-    //     fetch(`http://localhost:3000/dates/${day.id}`, {
+    //     fetch(`http://localhost:3000/dates/${noSpace}`, {
     //       method: "PATCH",
     //       headers: {
     //         "Content-Type": "application/json",
@@ -129,8 +129,8 @@ function AllTheData() {
     //       })
     //     })
     //     .then((r) => r.json())
-    //     .then((data) => console.log(data))
-    //   })}, [])
+    //     .then((data) => console.log("data"))
+    //   })}, [days])
 
 
   return (

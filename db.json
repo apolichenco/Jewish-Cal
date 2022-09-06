@@ -1,16 +1,10 @@
 {
-  "dates": [
-    {
-      "id": 20220927,
-      "hebrewDate": "2 Tishrei 5783",
-      "dateInHebrew": "ב׳ תשרי",
-      "holiday": "Rosh Hashana II",
-      "weekday": "Tuesday"
-    },
+  "Tishrei": [
     {
       "id": 20220925,
       "hebrewDate": "29 Elul 5782",
       "dateInHebrew": "כ״ט אלול",
+      "month": " Elul ",
       "holiday": "Erev Rosh Hashana",
       "weekday": "Sunday"
     },
@@ -18,151 +12,92 @@
       "id": 20220926,
       "hebrewDate": "1 Tishrei 5783",
       "dateInHebrew": "א׳ תשרי תשפ״ג",
+      "month": "Tishrei ",
       "holiday": "Rosh Hashana 5783",
       "weekday": "Monday"
+    },
+    {
+      "id": 20220927,
+      "hebrewDate": "2 Tishrei 5783",
+      "dateInHebrew": "ב׳ תשרי",
+      "month": "Tishrei ",
+      "holiday": "Rosh Hashana II",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20221001,
+      "hebrewDate": "6 Tishrei 5783",
+      "dateInHebrew": "ו׳ תשרי",
+      "month": "Tishrei ",
+      "holiday": "Shabbat Shuva",
+      "parsha": "Parashat Vayeilech",
+      "weekday": "Saturday"
     },
     {
       "id": 20221002,
       "hebrewDate": "7 Tishrei 5783",
       "dateInHebrew": "ז׳ תשרי",
+      "month": "Tishrei ",
       "weekday": "Sunday"
     },
     {
       "id": 20220928,
       "hebrewDate": "3 Tishrei 5783",
       "dateInHebrew": "ג׳ תשרי",
+      "month": "Tishrei ",
       "holiday": "Tzom Gedaliah",
       "weekday": "Wednesday"
-    },
-    {
-      "id": 20220929,
-      "hebrewDate": "4 Tishrei 5783",
-      "dateInHebrew": "ד׳ תשרי",
-      "privateEvent": "Hillel's Birthday",
-      "weekday": "Thursday"
-    },
-    {
-      "id": 20221001,
-      "hebrewDate": "6 Tishrei 5783",
-      "dateInHebrew": "ו׳ תשרי",
-      "holiday": "Shabbat Shuva",
-      "parsha": "Parashat Vayeilech",
-      "weekday": "Saturday"
-    },
-    {
-      "id": 20220930,
-      "hebrewDate": "5 Tishrei 5783",
-      "dateInHebrew": "ה׳ תשרי",
-      "weekday": "Friday"
     },
     {
       "id": 20221003,
       "hebrewDate": "8 Tishrei 5783",
       "dateInHebrew": "ח׳ תשרי",
-      "privateEvent": "Flight to LA",
+      "month": "Tishrei ",
       "weekday": "Monday"
     },
     {
       "id": 20221004,
       "hebrewDate": "9 Tishrei 5783",
       "dateInHebrew": "ט׳ תשרי",
+      "month": "Tishrei ",
       "holiday": "Erev Yom Kippur",
       "weekday": "Tuesday"
     },
     {
-      "id": 20221005,
-      "hebrewDate": "10 Tishrei 5783",
-      "dateInHebrew": "י׳ תשרי",
-      "holiday": "Yom Kippur",
-      "weekday": "Wednesday"
-    },
-    {
-      "id": 20221006,
-      "hebrewDate": "11 Tishrei 5783",
-      "dateInHebrew": "י״א תשרי",
+      "id": 20220929,
+      "hebrewDate": "4 Tishrei 5783",
+      "dateInHebrew": "ד׳ תשרי",
+      "month": "Tishrei ",
       "weekday": "Thursday"
     },
     {
-      "id": 20221007,
-      "hebrewDate": "12 Tishrei 5783",
-      "dateInHebrew": "י״ב תשרי",
+      "id": 20220930,
+      "hebrewDate": "5 Tishrei 5783",
+      "dateInHebrew": "ה׳ תשרי",
+      "month": "Tishrei ",
       "weekday": "Friday"
-    },
-    {
-      "id": 20221010,
-      "hebrewDate": "15 Tishrei 5783",
-      "dateInHebrew": "ט״ו תשרי",
-      "holiday": "Sukkot I",
-      "privateEvent": "Birthday!",
-      "weekday": "Monday"
-    },
-    {
-      "id": 20221011,
-      "hebrewDate": "16 Tishrei 5783",
-      "dateInHebrew": "ט״ז תשרי",
-      "holiday": "Sukkot II",
-      "weekday": "Tuesday"
-    },
-    {
-      "id": 20221009,
-      "hebrewDate": "14 Tishrei 5783",
-      "dateInHebrew": "י״ד תשרי",
-      "holiday": "Erev Sukkot",
-      "weekday": "Sunday"
-    },
-    {
-      "id": 20221008,
-      "hebrewDate": "13 Tishrei 5783",
-      "dateInHebrew": "י״ג תשרי",
-      "parsha": "Parashat Ha'Azinu",
-      "weekday": "Saturday"
-    },
-    {
-      "id": 20221013,
-      "hebrewDate": "18 Tishrei 5783",
-      "dateInHebrew": "י״ח תשרי",
-      "holiday": "Sukkot IV (CH''M)",
-      "weekday": "Thursday"
-    },
-    {
-      "id": 20221012,
-      "hebrewDate": "17 Tishrei 5783",
-      "dateInHebrew": "י״ז תשרי",
-      "holiday": "Sukkot III (CH''M)",
-      "weekday": "Wednesday"
-    },
-    {
-      "id": 20221014,
-      "hebrewDate": "19 Tishrei 5783",
-      "dateInHebrew": "י״ט תשרי",
-      "holiday": "Sukkot V (CH''M)",
-      "weekday": "Friday"
-    },
-    {
-      "id": 20221015,
-      "hebrewDate": "20 Tishrei 5783",
-      "dateInHebrew": "כ׳ תשרי",
-      "holiday": "Sukkot VI (CH''M)",
-      "weekday": "Saturday"
     },
     {
       "id": 20221016,
       "hebrewDate": "21 Tishrei 5783",
       "dateInHebrew": "כ״א תשרי",
+      "month": " Tishrei ",
       "holiday": "Sukkot VII (Hoshana Raba)",
       "weekday": "Sunday"
     },
     {
-      "id": 20221017,
-      "hebrewDate": "22 Tishrei 5783",
-      "dateInHebrew": "כ״ב תשרי",
-      "holiday": "Shmini Atzeret",
-      "weekday": "Monday"
+      "id": 20221015,
+      "hebrewDate": "20 Tishrei 5783",
+      "dateInHebrew": "כ׳ תשרי",
+      "month": " Tishrei ",
+      "holiday": "Sukkot VI (CH''M)",
+      "weekday": "Saturday"
     },
     {
       "id": 20221018,
       "hebrewDate": "23 Tishrei 5783",
       "dateInHebrew": "כ״ג תשרי",
+      "month": " Tishrei ",
       "holiday": "Simchat Torah",
       "weekday": "Tuesday"
     },
@@ -170,47 +105,2540 @@
       "id": 20221019,
       "hebrewDate": "24 Tishrei 5783",
       "dateInHebrew": "כ״ד תשרי",
+      "month": " Tishrei ",
       "weekday": "Wednesday"
     },
     {
       "id": 20221020,
       "hebrewDate": "25 Tishrei 5783",
       "dateInHebrew": "כ״ה תשרי",
-      "privateEvent": "Flight to FL",
+      "month": " Tishrei ",
       "weekday": "Thursday"
+    },
+    {
+      "id": 20221017,
+      "hebrewDate": "22 Tishrei 5783",
+      "dateInHebrew": "כ״ב תשרי",
+      "month": " Tishrei ",
+      "holiday": "Shmini Atzeret",
+      "weekday": "Monday"
     },
     {
       "id": 20221021,
       "hebrewDate": "26 Tishrei 5783",
       "dateInHebrew": "כ״ו תשרי",
+      "month": " Tishrei ",
       "weekday": "Friday"
-    },
+    }, 
     {
       "id": 20221022,
       "hebrewDate": "27 Tishrei 5783",
       "dateInHebrew": "כ״ז תשרי",
+      "month": " Tishrei ",
       "parsha": "Parashat Bereshit",
       "weekday": "Saturday"
-    },
-    {
-      "id": 20221023,
-      "hebrewDate": "28 Tishrei 5783",
-      "dateInHebrew": "כ״ח תשרי",
-      "privateEvent": "ויעקב הלך לדרכו",
-      "weekday": "Sunday"
     },
     {
       "id": 20221024,
       "hebrewDate": "29 Tishrei 5783",
       "dateInHebrew": "כ״ט תשרי",
+      "month": " Tishrei ",
       "weekday": "Monday"
+    },
+    {
+      "id": 20221005,
+      "hebrewDate": "10 Tishrei 5783",
+      "dateInHebrew": "י׳ תשרי",
+      "month": " Tishrei ",
+      "holiday": "Yom Kippur",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20221007,
+      "hebrewDate": "12 Tishrei 5783",
+      "dateInHebrew": "י״ב תשרי",
+      "month": " Tishrei ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20221006,
+      "hebrewDate": "11 Tishrei 5783",
+      "dateInHebrew": "י״א תשרי",
+      "month": " Tishrei ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20221009,
+      "hebrewDate": "14 Tishrei 5783",
+      "dateInHebrew": "י״ד תשרי",
+      "month": " Tishrei ",
+      "holiday": "Erev Sukkot",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20221010,
+      "hebrewDate": "15 Tishrei 5783",
+      "dateInHebrew": "ט״ו תשרי",
+      "month": " Tishrei ",
+      "holiday": "Sukkot I",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20221008,
+      "hebrewDate": "13 Tishrei 5783",
+      "dateInHebrew": "י״ג תשרי",
+      "month": " Tishrei ",
+      "weekday": "Saturday",
+      "parsha": "Parashat Ha'Azinu"
+    },
+    {
+      "id": 20221011,
+      "hebrewDate": "16 Tishrei 5783",
+      "dateInHebrew": "ט״ז תשרי",
+      "month": " Tishrei ",
+      "holiday": "Sukkot II",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20221012,
+      "hebrewDate": "17 Tishrei 5783",
+      "dateInHebrew": "י״ז תשרי",
+      "month": " Tishrei ",
+      "holiday": "Sukkot III (CH''M)",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20221013,
+      "hebrewDate": "18 Tishrei 5783",
+      "dateInHebrew": "י״ח תשרי",
+      "month": " Tishrei ",
+      "holiday": "Sukkot IV (CH''M)",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20221014,
+      "hebrewDate": "19 Tishrei 5783",
+      "dateInHebrew": "י״ט תשרי",
+      "month": " Tishrei ",
+      "holiday": "Sukkot V (CH''M)",
+      "weekday": "Friday"
     },
     {
       "id": 20221025,
       "hebrewDate": "30 Tishrei 5783",
       "dateInHebrew": "ל׳ תשרי",
-      "roshChodesh": "Rosh Chodesh Cheshvan",
+      "month": " Tishrei ",
+      "weekday": "Tuesday",
+      "roshChodesh": "Rosh Chodesh Cheshvan"
+    },
+    {
+      "id": 20221023,
+      "hebrewDate": "28 Tishrei 5783",
+      "dateInHebrew": "כ״ח תשרי",
+      "month": " Tishrei ",
+      "weekday": "Sunday"
+    }
+  ],
+  
+  "Chesvan": [
+    {
+      "id": 20221103,
+      "hebrewDate": "9 Cheshvan 5783",
+      "dateInHebrew": "ט׳ חשון",
+      "month": "Cheshvan ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20221105,
+      "hebrewDate": "11 Cheshvan 5783",
+      "dateInHebrew": "י״א חשון",
+      "month": " Cheshvan ",
+      "weekday": "Saturday",
+      "parsha": "Parashat Lech-Lecha"
+    },
+    {
+      "id": 20221106,
+      "hebrewDate": "12 Cheshvan 5783",
+      "dateInHebrew": "י״ב חשון",
+      "month": " Cheshvan ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20221104,
+      "hebrewDate": "10 Cheshvan 5783",
+      "dateInHebrew": "י׳ חשון",
+      "month": " Cheshvan ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20221107,
+      "hebrewDate": "13 Cheshvan 5783",
+      "dateInHebrew": "י״ג חשון",
+      "month": " Cheshvan ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20221108,
+      "hebrewDate": "14 Cheshvan 5783",
+      "dateInHebrew": "י״ד חשון",
+      "month": " Cheshvan ",
       "weekday": "Tuesday"
+    },
+    {
+      "id": 20221112,
+      "hebrewDate": "18 Cheshvan 5783",
+      "dateInHebrew": "י״ח חשון",
+      "month": " Cheshvan ",
+      "weekday": "Saturday",
+      "parsha": "Parashat Vayera"
+    },
+    {
+      "id": 20221113,
+      "hebrewDate": "19 Cheshvan 5783",
+      "dateInHebrew": "י״ט חשון",
+      "month": " Cheshvan ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20221114,
+      "hebrewDate": "20 Cheshvan 5783",
+      "dateInHebrew": "כ׳ חשון",
+      "month": " Cheshvan ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20221118,
+      "hebrewDate": "24 Cheshvan 5783",
+      "dateInHebrew": "כ״ד חשון",
+      "month": " Cheshvan ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20221119,
+      "hebrewDate": "25 Cheshvan 5783",
+      "dateInHebrew": "כ״ה חשון",
+      "month": " Cheshvan ",
+      "weekday": "Saturday",
+      "parsha": "Parashat Chayei Sara"
+    },
+    {
+      "id": 20221115,
+      "hebrewDate": "21 Cheshvan 5783",
+      "dateInHebrew": "כ״א חשון",
+      "month": " Cheshvan ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20221116,
+      "hebrewDate": "22 Cheshvan 5783",
+      "dateInHebrew": "כ״ב חשון",
+      "month": " Cheshvan ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20221117,
+      "hebrewDate": "23 Cheshvan 5783",
+      "dateInHebrew": "כ״ג חשון",
+      "month": " Cheshvan ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20221120,
+      "hebrewDate": "26 Cheshvan 5783",
+      "dateInHebrew": "כ״ו חשון",
+      "month": " Cheshvan ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20221026,
+      "hebrewDate": "1 Cheshvan 5783",
+      "dateInHebrew": "א׳ חשון",
+      "month": "Cheshvan ",
+      "weekday": "Wednesday",
+      "roshChodesh": "Rosh Chodesh Cheshvan"
+    },
+    {
+      "id": 20221027,
+      "hebrewDate": "2 Cheshvan 5783",
+      "dateInHebrew": "ב׳ חשון",
+      "month": "Cheshvan ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20221028,
+      "hebrewDate": "3 Cheshvan 5783",
+      "dateInHebrew": "ג׳ חשון",
+      "month": "Cheshvan ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20221029,
+      "hebrewDate": "4 Cheshvan 5783",
+      "dateInHebrew": "ד׳ חשון",
+      "month": "Cheshvan ",
+      "parsha": "Parashat Noach",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20221030,
+      "hebrewDate": "5 Cheshvan 5783",
+      "dateInHebrew": "ה׳ חשון",
+      "month": "Cheshvan ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20221031,
+      "hebrewDate": "6 Cheshvan 5783",
+      "dateInHebrew": "ו׳ חשון",
+      "month": "Cheshvan ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20221101,
+      "hebrewDate": "7 Cheshvan 5783",
+      "dateInHebrew": "ז׳ חשון",
+      "month": "Cheshvan ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20221102,
+      "hebrewDate": "8 Cheshvan 5783",
+      "dateInHebrew": "ח׳ חשון",
+      "month": "Cheshvan ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20221121,
+      "hebrewDate": "27 Cheshvan 5783",
+      "dateInHebrew": "כ״ז חשון",
+      "month": " Cheshvan ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20221109,
+      "hebrewDate": "15 Cheshvan 5783",
+      "dateInHebrew": "ט״ו חשון",
+      "month": " Cheshvan ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20221110,
+      "hebrewDate": "16 Cheshvan 5783",
+      "dateInHebrew": "ט״ז חשון",
+      "month": " Cheshvan ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20221111,
+      "hebrewDate": "17 Cheshvan 5783",
+      "dateInHebrew": "י״ז חשון",
+      "month": " Cheshvan ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20221122,
+      "hebrewDate": "28 Cheshvan 5783",
+      "dateInHebrew": "כ״ח חשון",
+      "month": " Cheshvan ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20221124,
+      "hebrewDate": "30 Cheshvan 5783",
+      "dateInHebrew": "ל׳ חשון",
+      "month": " Cheshvan ",
+      "weekday": "Thursday",
+      "roshChodesh": "Rosh Chodesh Kislev"
+    },
+    {
+      "id": 20221123,
+      "hebrewDate": "29 Cheshvan 5783",
+      "dateInHebrew": "כ״ט חשון",
+      "month": " Cheshvan ",
+      "weekday": "Wednesday"
+    }
+  ],
+  "Kislev": [
+    {
+      "id": 20221127,
+      "hebrewDate": "3 Kislev 5783",
+      "dateInHebrew": "ג׳ כסלו",
+      "month": "Kislev ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20221128,
+      "hebrewDate": "4 Kislev 5783",
+      "dateInHebrew": "ד׳ כסלו",
+      "month": "Kislev ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20221129,
+      "hebrewDate": "5 Kislev 5783",
+      "dateInHebrew": "ה׳ כסלו",
+      "month": "Kislev ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20221130,
+      "hebrewDate": "6 Kislev 5783",
+      "dateInHebrew": "ו׳ כסלו",
+      "month": "Kislev ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20221201,
+      "hebrewDate": "7 Kislev 5783",
+      "dateInHebrew": "ז׳ כסלו",
+      "month": "Kislev ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20221206,
+      "hebrewDate": "12 Kislev 5783",
+      "dateInHebrew": "י״ב כסלו",
+      "month": " Kislev ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20221203,
+      "hebrewDate": "9 Kislev 5783",
+      "dateInHebrew": "ט׳ כסלו",
+      "month": "Kislev ",
+      "weekday": "Saturday",
+      "parsha": "Parashat Vayetzei"
+    },
+    {
+      "id": 20221204,
+      "hebrewDate": "10 Kislev 5783",
+      "dateInHebrew": "י׳ כסלו",
+      "month": " Kislev ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20221205,
+      "hebrewDate": "11 Kislev 5783",
+      "dateInHebrew": "י״א כסלו",
+      "month": " Kislev ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20221202,
+      "hebrewDate": "8 Kislev 5783",
+      "dateInHebrew": "ח׳ כסלו",
+      "month": "Kislev ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20221207,
+      "hebrewDate": "13 Kislev 5783",
+      "dateInHebrew": "י״ג כסלו",
+      "month": " Kislev ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20221208,
+      "hebrewDate": "14 Kislev 5783",
+      "dateInHebrew": "י״ד כסלו",
+      "month": " Kislev ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20221209,
+      "hebrewDate": "15 Kislev 5783",
+      "dateInHebrew": "ט״ו כסלו",
+      "month": " Kislev ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20221210,
+      "hebrewDate": "16 Kislev 5783",
+      "dateInHebrew": "ט״ז כסלו",
+      "month": " Kislev ",
+      "weekday": "Saturday",
+      "parsha": "Parashat Vayishlach"
+    },
+    {
+      "id": 20221211,
+      "hebrewDate": "17 Kislev 5783",
+      "dateInHebrew": "י״ז כסלו",
+      "month": " Kislev ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20221212,
+      "hebrewDate": "18 Kislev 5783",
+      "dateInHebrew": "י״ח כסלו",
+      "month": " Kislev ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20221214,
+      "hebrewDate": "20 Kislev 5783",
+      "dateInHebrew": "כ׳ כסלו",
+      "month": " Kislev ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20221216,
+      "hebrewDate": "22 Kislev 5783",
+      "dateInHebrew": "כ״ב כסלו",
+      "month": " Kislev ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20221215,
+      "hebrewDate": "21 Kislev 5783",
+      "dateInHebrew": "כ״א כסלו",
+      "month": " Kislev ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20221217,
+      "hebrewDate": "23 Kislev 5783",
+      "dateInHebrew": "כ״ג כסלו",
+      "month": " Kislev ",
+      "parsha": "Parashat Vayeshev",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20221218,
+      "hebrewDate": "24 Kislev 5783",
+      "dateInHebrew": "כ״ד כסלו",
+      "month": " Kislev ",
+      "weekday": "Sunday",
+      "holiday": "Chanukah: 1 Candle"
+    },
+    {
+      "id": 20221220,
+      "hebrewDate": "26 Kislev 5783",
+      "dateInHebrew": "כ״ו כסלו",
+      "month": " Kislev ",
+      "weekday": "Tuesday",
+      "holiday": "Chanukah: 3 Candles"
+    },
+    {
+      "id": 20221219,
+      "hebrewDate": "25 Kislev 5783",
+      "dateInHebrew": "כ״ה כסלו",
+      "month": " Kislev ",
+      "weekday": "Monday",
+      "holiday": "Chanukah: 2 Candles"
+    },
+    {
+      "id": 20221221,
+      "hebrewDate": "27 Kislev 5783",
+      "dateInHebrew": "כ״ז כסלו",
+      "month": " Kislev ",
+      "weekday": "Wednesday",
+      "holiday": "Chanukah: 4 Candles"
+    },
+    {
+      "id": 20221222,
+      "hebrewDate": "28 Kislev 5783",
+      "dateInHebrew": "כ״ח כסלו",
+      "month": " Kislev ",
+      "weekday": "Thursday",
+      "holiday": "Chanukah: 5 Candles"
+    },
+    {
+      "id": 20221126,
+      "hebrewDate": "2 Kislev 5783",
+      "dateInHebrew": "ב׳ כסלו",
+      "month": "Kislev ",
+      "weekday": "Saturday",
+      "parsha": "Parashat Toldot"
+    },
+    {
+      "id": 20221125,
+      "hebrewDate": "1 Kislev 5783",
+      "dateInHebrew": "א׳ כסלו",
+      "month": "Kislev ",
+      "weekday": "Friday",
+      "roshChodesh": "Rosh Chodesh Kislev"
+    },
+    {
+      "id": 20221213,
+      "hebrewDate": "19 Kislev 5783",
+      "dateInHebrew": "י״ט כסלו",
+      "month": " Kislev ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20221223,
+      "hebrewDate": "29 Kislev 5783",
+      "dateInHebrew": "כ״ט כסלו",
+      "month": " Kislev ",
+      "weekday": "Friday",
+      "holiday": "Chanukah: 6 Candles"
+    },
+    {
+      "id": 20221224,
+      "hebrewDate": "30 Kislev 5783",
+      "dateInHebrew": "ל׳ כסלו",
+      "month": " Kislev ",
+      "parsha": "Parashat Miketz",
+      "weekday": "Saturday",
+      "roshChodesh": "Rosh Chodesh Tevet",
+      "holiday": "Chanukah: 7 Candles"
+    }
+  ],
+  "Tevet": [
+    {
+      "id": 20221226,
+      "hebrewDate": "2 Tevet 5783",
+      "dateInHebrew": "ב׳ טבת",
+      "month": "Tevet ",
+      "holiday": "Chanukah: 8th Day",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20221227,
+      "hebrewDate": "3 Tevet 5783",
+      "dateInHebrew": "ג׳ טבת",
+      "month": "Tevet ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20221228,
+      "hebrewDate": "4 Tevet 5783",
+      "dateInHebrew": "ד׳ טבת",
+      "month": "Tevet ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20221229,
+      "hebrewDate": "5 Tevet 5783",
+      "dateInHebrew": "ה׳ טבת",
+      "month": "Tevet ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20221230,
+      "hebrewDate": "6 Tevet 5783",
+      "dateInHebrew": "ו׳ טבת",
+      "month": "Tevet ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20221231,
+      "hebrewDate": "7 Tevet 5783",
+      "dateInHebrew": "ז׳ טבת",
+      "month": "Tevet ",
+      "parsha": "Parashat Vayigash",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230101,
+      "hebrewDate": "8 Tevet 5783",
+      "dateInHebrew": "ח׳ טבת",
+      "month": "Tevet ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230102,
+      "hebrewDate": "9 Tevet 5783",
+      "dateInHebrew": "ט׳ טבת",
+      "month": "Tevet ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230103,
+      "hebrewDate": "10 Tevet 5783",
+      "dateInHebrew": "י׳ טבת",
+      "month": " Tevet ",
+      "holiday": "Asara B'Tevet",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230104,
+      "hebrewDate": "11 Tevet 5783",
+      "dateInHebrew": "י״א טבת",
+      "month": " Tevet ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230108,
+      "hebrewDate": "15 Tevet 5783",
+      "dateInHebrew": "ט״ו טבת",
+      "month": " Tevet ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230109,
+      "hebrewDate": "16 Tevet 5783",
+      "dateInHebrew": "ט״ז טבת",
+      "month": " Tevet ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230114,
+      "hebrewDate": "21 Tevet 5783",
+      "dateInHebrew": "כ״א טבת",
+      "month": " Tevet ",
+      "weekday": "Saturday",
+      "parsha": "Parashat Shemot"
+    },
+    {
+      "id": 20230110,
+      "hebrewDate": "17 Tevet 5783",
+      "dateInHebrew": "י״ז טבת",
+      "month": " Tevet ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230111,
+      "hebrewDate": "18 Tevet 5783",
+      "dateInHebrew": "י״ח טבת",
+      "month": " Tevet ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230113,
+      "hebrewDate": "20 Tevet 5783",
+      "dateInHebrew": "כ׳ טבת",
+      "month": " Tevet ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230112,
+      "hebrewDate": "19 Tevet 5783",
+      "dateInHebrew": "י״ט טבת",
+      "month": " Tevet ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230118,
+      "hebrewDate": "25 Tevet 5783",
+      "dateInHebrew": "כ״ה טבת",
+      "month": " Tevet ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230117,
+      "hebrewDate": "24 Tevet 5783",
+      "dateInHebrew": "כ״ד טבת",
+      "month": " Tevet ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230119,
+      "hebrewDate": "26 Tevet 5783",
+      "dateInHebrew": "כ״ו טבת",
+      "month": " Tevet ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230122,
+      "hebrewDate": "29 Tevet 5783",
+      "dateInHebrew": "כ״ט טבת",
+      "month": " Tevet ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230120,
+      "hebrewDate": "27 Tevet 5783",
+      "dateInHebrew": "כ״ז טבת",
+      "month": " Tevet ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230121,
+      "hebrewDate": "28 Tevet 5783",
+      "dateInHebrew": "כ״ח טבת",
+      "month": " Tevet ",
+      "weekday": "Saturday",
+      "parsha": "Parashat Vaera"
+    },
+    {
+      "id": 20230116,
+      "hebrewDate": "23 Tevet 5783",
+      "dateInHebrew": "כ״ג טבת",
+      "month": " Tevet ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20221225,
+      "hebrewDate": "1 Tevet 5783",
+      "dateInHebrew": "א׳ טבת",
+      "month": "Tevet ",
+      "weekday": "Sunday",
+      "roshChodesh": "Rosh Chodesh Tevet",
+      "holiday": "Chanukah: 8 Candles"
+    },
+    {
+      "id": 20230115,
+      "hebrewDate": "22 Tevet 5783",
+      "dateInHebrew": "כ״ב טבת",
+      "month": " Tevet ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230107,
+      "hebrewDate": "14 Tevet 5783",
+      "dateInHebrew": "י״ד טבת",
+      "month": " Tevet ",
+      "parsha": "Parashat Vayechi",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230105,
+      "hebrewDate": "12 Tevet 5783",
+      "dateInHebrew": "י״ב טבת",
+      "month": " Tevet ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230106,
+      "hebrewDate": "13 Tevet 5783",
+      "dateInHebrew": "י״ג טבת",
+      "month": " Tevet ",
+      "weekday": "Friday"
+    }
+  ],
+  "Shvat": [
+    {
+      "id": 20230123,
+      "hebrewDate": "1 Sh'vat 5783",
+      "dateInHebrew": "א׳ שבט",
+      "month": "Sh'vat ",
+      "weekday": "Monday",
+      "roshChodesh": "Rosh Chodesh Sh'vat"
+    },
+    {
+      "id": 20230124,
+      "hebrewDate": "2 Sh'vat 5783",
+      "dateInHebrew": "ב׳ שבט",
+      "month": "Sh'vat ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230125,
+      "hebrewDate": "3 Sh'vat 5783",
+      "dateInHebrew": "ג׳ שבט",
+      "month": "Sh'vat ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230126,
+      "hebrewDate": "4 Sh'vat 5783",
+      "dateInHebrew": "ד׳ שבט",
+      "month": "Sh'vat ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230127,
+      "hebrewDate": "5 Sh'vat 5783",
+      "dateInHebrew": "ה׳ שבט",
+      "month": "Sh'vat ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230128,
+      "hebrewDate": "6 Sh'vat 5783",
+      "dateInHebrew": "ו׳ שבט",
+      "month": "Sh'vat ",
+      "weekday": "Saturday",
+      "parsha": "Parashat Bo"
+    },
+    {
+      "id": 20230130,
+      "hebrewDate": "8 Sh'vat 5783",
+      "dateInHebrew": "ח׳ שבט",
+      "month": "Sh'vat ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230131,
+      "hebrewDate": "9 Sh'vat 5783",
+      "dateInHebrew": "ט׳ שבט",
+      "month": "Sh'vat ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230201,
+      "hebrewDate": "10 Sh'vat 5783",
+      "dateInHebrew": "י׳ שבט",
+      "month": " Sh'vat ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230202,
+      "hebrewDate": "11 Sh'vat 5783",
+      "dateInHebrew": "י״א שבט",
+      "month": " Sh'vat ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230205,
+      "hebrewDate": "14 Sh'vat 5783",
+      "dateInHebrew": "י״ד שבט",
+      "month": " Sh'vat ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230206,
+      "hebrewDate": "15 Sh'vat 5783",
+      "dateInHebrew": "ט״ו שבט",
+      "month": " Sh'vat ",
+      "holiday": "Tu BiShvat",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230203,
+      "hebrewDate": "12 Sh'vat 5783",
+      "dateInHebrew": "י״ב שבט",
+      "month": " Sh'vat ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230204,
+      "hebrewDate": "13 Sh'vat 5783",
+      "dateInHebrew": "י״ג שבט",
+      "month": " Sh'vat ",
+      "holiday": "Shabbat Shirah",
+      "weekday": "Saturday",
+      "parsha": "Parashat Beshalach"
+    },
+    {
+      "id": 20230210,
+      "hebrewDate": "19 Sh'vat 5783",
+      "dateInHebrew": "י״ט שבט",
+      "month": " Sh'vat ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230209,
+      "hebrewDate": "18 Sh'vat 5783",
+      "dateInHebrew": "י״ח שבט",
+      "month": " Sh'vat ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230211,
+      "hebrewDate": "20 Sh'vat 5783",
+      "dateInHebrew": "כ׳ שבט",
+      "month": " Sh'vat ",
+      "weekday": "Saturday",
+      "parsha": "Parashat Yitro"
+    },
+    {
+      "id": 20230212,
+      "hebrewDate": "21 Sh'vat 5783",
+      "dateInHebrew": "כ״א שבט",
+      "month": " Sh'vat ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230213,
+      "hebrewDate": "22 Sh'vat 5783",
+      "dateInHebrew": "כ״ב שבט",
+      "month": " Sh'vat ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230214,
+      "hebrewDate": "23 Sh'vat 5783",
+      "dateInHebrew": "כ״ג שבט",
+      "month": " Sh'vat ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230215,
+      "hebrewDate": "24 Sh'vat 5783",
+      "dateInHebrew": "כ״ד שבט",
+      "month": " Sh'vat ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230216,
+      "hebrewDate": "25 Sh'vat 5783",
+      "dateInHebrew": "כ״ה שבט",
+      "month": " Sh'vat ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230217,
+      "hebrewDate": "26 Sh'vat 5783",
+      "dateInHebrew": "כ״ו שבט",
+      "month": " Sh'vat ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230219,
+      "hebrewDate": "28 Sh'vat 5783",
+      "dateInHebrew": "כ״ח שבט",
+      "month": " Sh'vat ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230129,
+      "hebrewDate": "7 Sh'vat 5783",
+      "dateInHebrew": "ז׳ שבט",
+      "month": "Sh'vat ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230207,
+      "hebrewDate": "16 Sh'vat 5783",
+      "dateInHebrew": "ט״ז שבט",
+      "month": " Sh'vat ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230221,
+      "hebrewDate": "30 Sh'vat 5783",
+      "dateInHebrew": "ל׳ שבט",
+      "month": " Sh'vat ",
+      "weekday": "Tuesday",
+      "roshChodesh": "Rosh Chodesh Adar"
+    },
+    {
+      "id": 20230220,
+      "hebrewDate": "29 Sh'vat 5783",
+      "dateInHebrew": "כ״ט שבט",
+      "month": " Sh'vat ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230218,
+      "hebrewDate": "27 Sh'vat 5783",
+      "dateInHebrew": "כ״ז שבט",
+      "month": " Sh'vat ",
+      "holiday": "Shabbat Shekalim",
+      "weekday": "Saturday",
+      "parsha": "Parashat Mishpatim"
+    },
+    {
+      "id": 20230208,
+      "hebrewDate": "17 Sh'vat 5783",
+      "dateInHebrew": "י״ז שבט",
+      "month": " Sh'vat ",
+      "weekday": "Wednesday"
+    }
+  ],
+  "Adar": [
+    {
+      "id": 20230223,
+      "hebrewDate": "2 Adar 5783",
+      "dateInHebrew": "ב׳ אדר",
+      "month": "Adar ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230224,
+      "hebrewDate": "3 Adar 5783",
+      "dateInHebrew": "ג׳ אדר",
+      "month": "Adar ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230225,
+      "hebrewDate": "4 Adar 5783",
+      "dateInHebrew": "ד׳ אדר",
+      "month": "Adar ",
+      "parsha": "Parashat Terumah",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230226,
+      "hebrewDate": "5 Adar 5783",
+      "dateInHebrew": "ה׳ אדר",
+      "month": "Adar ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230301,
+      "hebrewDate": "8 Adar 5783",
+      "dateInHebrew": "ח׳ אדר",
+      "month": "Adar ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230227,
+      "hebrewDate": "6 Adar 5783",
+      "dateInHebrew": "ו׳ אדר",
+      "month": "Adar ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230228,
+      "hebrewDate": "7 Adar 5783",
+      "dateInHebrew": "ז׳ אדר",
+      "month": "Adar ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230302,
+      "hebrewDate": "9 Adar 5783",
+      "dateInHebrew": "ט׳ אדר",
+      "month": "Adar ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230303,
+      "hebrewDate": "10 Adar 5783",
+      "dateInHebrew": "י׳ אדר",
+      "month": " Adar ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230304,
+      "hebrewDate": "11 Adar 5783",
+      "dateInHebrew": "י״א אדר",
+      "month": " Adar ",
+      "holiday": "Shabbat Zachor",
+      "weekday": "Saturday",
+      "parsha": "Parashat Tetzaveh"
+    },
+    {
+      "id": 20230308,
+      "hebrewDate": "15 Adar 5783",
+      "dateInHebrew": "ט״ו אדר",
+      "month": " Adar ",
+      "holiday": "Shushan Purim",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230309,
+      "hebrewDate": "16 Adar 5783",
+      "dateInHebrew": "ט״ז אדר",
+      "month": " Adar ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230310,
+      "hebrewDate": "17 Adar 5783",
+      "dateInHebrew": "י״ז אדר",
+      "month": " Adar ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230314,
+      "hebrewDate": "21 Adar 5783",
+      "dateInHebrew": "כ״א אדר",
+      "month": " Adar ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230315,
+      "hebrewDate": "22 Adar 5783",
+      "dateInHebrew": "כ״ב אדר",
+      "month": " Adar ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230318,
+      "hebrewDate": "25 Adar 5783",
+      "dateInHebrew": "כ״ה אדר",
+      "month": " Adar ",
+      "holiday": "Shabbat HaChodesh",
+      "weekday": "Saturday",
+      "parsha": "Parashat Vayakhel-Pekudei"
+    },
+    {
+      "id": 20230319,
+      "hebrewDate": "26 Adar 5783",
+      "dateInHebrew": "כ״ו אדר",
+      "month": " Adar ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230320,
+      "hebrewDate": "27 Adar 5783",
+      "dateInHebrew": "כ״ז אדר",
+      "month": " Adar ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230321,
+      "hebrewDate": "28 Adar 5783",
+      "dateInHebrew": "כ״ח אדר",
+      "month": " Adar ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230322,
+      "hebrewDate": "29 Adar 5783",
+      "dateInHebrew": "כ״ט אדר",
+      "month": " Adar ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230311,
+      "hebrewDate": "18 Adar 5783",
+      "dateInHebrew": "י״ח אדר",
+      "month": " Adar ",
+      "holiday": "Shabbat Parah",
+      "parsha": "Parashat Ki Tisa",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230312,
+      "hebrewDate": "19 Adar 5783",
+      "dateInHebrew": "י״ט אדר",
+      "month": " Adar ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230313,
+      "hebrewDate": "20 Adar 5783",
+      "dateInHebrew": "כ׳ אדר",
+      "month": " Adar ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230305,
+      "hebrewDate": "12 Adar 5783",
+      "dateInHebrew": "י״ב אדר",
+      "month": " Adar ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230306,
+      "hebrewDate": "13 Adar 5783",
+      "dateInHebrew": "י״ג אדר",
+      "month": " Adar ",
+      "holiday": "Erev Purim",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230307,
+      "hebrewDate": "14 Adar 5783",
+      "dateInHebrew": "י״ד אדר",
+      "month": " Adar ",
+      "holiday": "Purim",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230317,
+      "hebrewDate": "24 Adar 5783",
+      "dateInHebrew": "כ״ד אדר",
+      "month": " Adar ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230316,
+      "hebrewDate": "23 Adar 5783",
+      "dateInHebrew": "כ״ג אדר",
+      "month": " Adar ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230222,
+      "hebrewDate": "1 Adar 5783",
+      "dateInHebrew": "א׳ אדר",
+      "month": "Adar ",
+      "weekday": "Wednesday",
+      "roshChodesh": "Rosh Chodesh Adar"
+    }
+  ],
+  "Nissan": [
+    {
+      "id": 20230323,
+      "hebrewDate": "1 Nisan 5783",
+      "dateInHebrew": "א׳ ניסן",
+      "month": "Nisan ",
+      "weekday": "Thursday",
+      "roshChodesh": "Rosh Chodesh Nisan"
+    },
+    {
+      "id": 20230324,
+      "hebrewDate": "2 Nisan 5783",
+      "dateInHebrew": "ב׳ ניסן",
+      "month": "Nisan ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230325,
+      "hebrewDate": "3 Nisan 5783",
+      "dateInHebrew": "ג׳ ניסן",
+      "month": "Nisan ",
+      "parsha": "Parashat Vayikra",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230326,
+      "hebrewDate": "4 Nisan 5783",
+      "dateInHebrew": "ד׳ ניסן",
+      "month": "Nisan ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230327,
+      "hebrewDate": "5 Nisan 5783",
+      "dateInHebrew": "ה׳ ניסן",
+      "month": "Nisan ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230328,
+      "hebrewDate": "6 Nisan 5783",
+      "dateInHebrew": "ו׳ ניסן",
+      "month": "Nisan ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230329,
+      "hebrewDate": "7 Nisan 5783",
+      "dateInHebrew": "ז׳ ניסן",
+      "month": "Nisan ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230330,
+      "hebrewDate": "8 Nisan 5783",
+      "dateInHebrew": "ח׳ ניסן",
+      "month": "Nisan ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230331,
+      "hebrewDate": "9 Nisan 5783",
+      "dateInHebrew": "ט׳ ניסן",
+      "month": "Nisan ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230401,
+      "hebrewDate": "10 Nisan 5783",
+      "dateInHebrew": "י׳ ניסן",
+      "month": " Nisan ",
+      "parsha": "Parashat Tzav",
+      "holiday": "Shabbat HaGadol",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230402,
+      "hebrewDate": "11 Nisan 5783",
+      "dateInHebrew": "י״א ניסן",
+      "month": " Nisan ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230403,
+      "hebrewDate": "12 Nisan 5783",
+      "dateInHebrew": "י״ב ניסן",
+      "month": " Nisan ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230405,
+      "hebrewDate": "14 Nisan 5783",
+      "dateInHebrew": "י״ד ניסן",
+      "month": " Nisan ",
+      "weekday": "Wednesday",
+      "holiday": "Erev Pesach"
+    },
+    {
+      "id": 20230406,
+      "hebrewDate": "15 Nisan 5783",
+      "dateInHebrew": "ט״ו ניסן",
+      "month": " Nisan ",
+      "weekday": "Thursday",
+      "holiday": "Pesach I"
+    },
+    {
+      "id": 20230407,
+      "hebrewDate": "16 Nisan 5783",
+      "dateInHebrew": "ט״ז ניסן",
+      "month": " Nisan ",
+      "weekday": "Friday",
+      "holiday": "Pesach II"
+    },
+    {
+      "id": 20230408,
+      "hebrewDate": "17 Nisan 5783",
+      "dateInHebrew": "י״ז ניסן",
+      "month": " Nisan ",
+      "weekday": "Saturday",
+      "holiday": "Pesach III (CH''M)"
+    },
+    {
+      "id": 20230411,
+      "hebrewDate": "20 Nisan 5783",
+      "dateInHebrew": "כ׳ ניסן",
+      "month": " Nisan ",
+      "weekday": "Tuesday",
+      "holiday": "Pesach VI (CH''M)"
+    },
+    {
+      "id": 20230412,
+      "hebrewDate": "21 Nisan 5783",
+      "dateInHebrew": "כ״א ניסן",
+      "month": " Nisan ",
+      "holiday": "Pesach VII",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230413,
+      "hebrewDate": "22 Nisan 5783",
+      "dateInHebrew": "כ״ב ניסן",
+      "month": " Nisan ",
+      "holiday": "Pesach VIII",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230414,
+      "hebrewDate": "23 Nisan 5783",
+      "dateInHebrew": "כ״ג ניסן",
+      "month": " Nisan ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230415,
+      "hebrewDate": "24 Nisan 5783",
+      "dateInHebrew": "כ״ד ניסן",
+      "month": " Nisan ",
+      "parsha": "Parashat Shmini",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230416,
+      "hebrewDate": "25 Nisan 5783",
+      "dateInHebrew": "כ״ה ניסן",
+      "month": " Nisan ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230417,
+      "hebrewDate": "26 Nisan 5783",
+      "dateInHebrew": "כ״ו ניסן",
+      "month": " Nisan ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230418,
+      "hebrewDate": "27 Nisan 5783",
+      "dateInHebrew": "כ״ז ניסן",
+      "month": " Nisan ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230419,
+      "hebrewDate": "28 Nisan 5783",
+      "dateInHebrew": "כ״ח ניסן",
+      "month": " Nisan ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230420,
+      "hebrewDate": "29 Nisan 5783",
+      "dateInHebrew": "כ״ט ניסן",
+      "month": " Nisan ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230421,
+      "hebrewDate": "30 Nisan 5783",
+      "dateInHebrew": "ל׳ ניסן",
+      "month": " Nisan ",
+      "weekday": "Friday",
+      "roshChodesh": "Rosh Chodesh Iyyar"
+    },
+    {
+      "id": 20230404,
+      "hebrewDate": "13 Nisan 5783",
+      "dateInHebrew": "י״ג ניסן",
+      "month": " Nisan ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230410,
+      "hebrewDate": "19 Nisan 5783",
+      "dateInHebrew": "י״ט ניסן",
+      "month": " Nisan ",
+      "weekday": "Monday",
+      "holiday": "Pesach V (CH''M)"
+    },
+    {
+      "id": 20230409,
+      "hebrewDate": "18 Nisan 5783",
+      "dateInHebrew": "י״ח ניסן",
+      "month": " Nisan ",
+      "weekday": "Sunday",
+      "holiday": "Pesach IV (CH''M)"
+    }
+  ],
+  "Iyar": [
+    {
+      "id": 20230423,
+      "hebrewDate": "2 Iyyar 5783",
+      "dateInHebrew": "ב׳ אייר",
+      "month": "Iyyar ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230424,
+      "hebrewDate": "3 Iyyar 5783",
+      "dateInHebrew": "ג׳ אייר",
+      "month": "Iyyar ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230425,
+      "hebrewDate": "4 Iyyar 5783",
+      "dateInHebrew": "ד׳ אייר",
+      "month": "Iyyar ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230426,
+      "hebrewDate": "5 Iyyar 5783",
+      "dateInHebrew": "ה׳ אייר",
+      "month": "Iyyar ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230427,
+      "hebrewDate": "6 Iyyar 5783",
+      "dateInHebrew": "ו׳ אייר",
+      "month": "Iyyar ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230429,
+      "hebrewDate": "8 Iyyar 5783",
+      "dateInHebrew": "ח׳ אייר",
+      "month": "Iyyar ",
+      "parsha": "Parashat Achrei Mot-Kedoshim",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230503,
+      "hebrewDate": "12 Iyyar 5783",
+      "dateInHebrew": "י״ב אייר",
+      "month": " Iyyar ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230428,
+      "hebrewDate": "7 Iyyar 5783",
+      "dateInHebrew": "ז׳ אייר",
+      "month": "Iyyar ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230430,
+      "hebrewDate": "9 Iyyar 5783",
+      "dateInHebrew": "ט׳ אייר",
+      "month": "Iyyar ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230509,
+      "hebrewDate": "18 Iyyar 5783",
+      "dateInHebrew": "י״ח אייר",
+      "month": " Iyyar ",
+      "holiday": "Lag BaOmer",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230504,
+      "hebrewDate": "13 Iyyar 5783",
+      "dateInHebrew": "י״ג אייר",
+      "month": " Iyyar ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230510,
+      "hebrewDate": "19 Iyyar 5783",
+      "dateInHebrew": "י״ט אייר",
+      "month": " Iyyar ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230511,
+      "hebrewDate": "20 Iyyar 5783",
+      "dateInHebrew": "כ׳ אייר",
+      "month": " Iyyar ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230514,
+      "hebrewDate": "23 Iyyar 5783",
+      "dateInHebrew": "כ״ג אייר",
+      "month": " Iyyar ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230515,
+      "hebrewDate": "24 Iyyar 5783",
+      "dateInHebrew": "כ״ד אייר",
+      "month": " Iyyar ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230516,
+      "hebrewDate": "25 Iyyar 5783",
+      "dateInHebrew": "כ״ה אייר",
+      "month": " Iyyar ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230512,
+      "hebrewDate": "21 Iyyar 5783",
+      "dateInHebrew": "כ״א אייר",
+      "month": " Iyyar ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230513,
+      "hebrewDate": "22 Iyyar 5783",
+      "dateInHebrew": "כ״ב אייר",
+      "month": " Iyyar ",
+      "parsha": "Parashat Behar-Bechukotai",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230502,
+      "hebrewDate": "11 Iyyar 5783",
+      "dateInHebrew": "י״א אייר",
+      "month": " Iyyar ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230501,
+      "hebrewDate": "10 Iyyar 5783",
+      "dateInHebrew": "י׳ אייר",
+      "month": " Iyyar ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230505,
+      "hebrewDate": "14 Iyyar 5783",
+      "dateInHebrew": "י״ד אייר",
+      "month": " Iyyar ",
+      "weekday": "Friday",
+      "holiday": "Pesach Sheni"
+    },
+    {
+      "id": 20230508,
+      "hebrewDate": "17 Iyyar 5783",
+      "dateInHebrew": "י״ז אייר",
+      "month": " Iyyar ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230422,
+      "hebrewDate": "1 Iyyar 5783",
+      "dateInHebrew": "א׳ אייר",
+      "month": "Iyyar ",
+      "parsha": "Parashat Tazria-Metzora",
+      "weekday": "Saturday",
+      "roshChodesh": "Rosh Chodesh Iyyar"
+    },
+    {
+      "id": 20230506,
+      "hebrewDate": "15 Iyyar 5783",
+      "dateInHebrew": "ט״ו אייר",
+      "month": " Iyyar ",
+      "parsha": "Parashat Emor",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230507,
+      "hebrewDate": "16 Iyyar 5783",
+      "dateInHebrew": "ט״ז אייר",
+      "month": " Iyyar ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230518,
+      "hebrewDate": "27 Iyyar 5783",
+      "dateInHebrew": "כ״ז אייר",
+      "month": " Iyyar ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230519,
+      "hebrewDate": "28 Iyyar 5783",
+      "dateInHebrew": "כ״ח אייר",
+      "month": " Iyyar ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230520,
+      "hebrewDate": "29 Iyyar 5783",
+      "dateInHebrew": "כ״ט אייר",
+      "month": " Iyyar ",
+      "parsha": "Parashat Bamidbar",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230517,
+      "hebrewDate": "26 Iyyar 5783",
+      "dateInHebrew": "כ״ו אייר",
+      "month": " Iyyar ",
+      "weekday": "Wednesday"
+    }
+  ],
+  "Sivan": [
+    {
+      "id": 20230521,
+      "hebrewDate": "1 Sivan 5783",
+      "dateInHebrew": "א׳ סיון",
+      "month": "Sivan ",
+      "weekday": "Sunday",
+      "roshChodesh": "Rosh Chodesh Sivan"
+    },
+    {
+      "id": 20230522,
+      "hebrewDate": "2 Sivan 5783",
+      "dateInHebrew": "ב׳ סיון",
+      "month": "Sivan ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230523,
+      "hebrewDate": "3 Sivan 5783",
+      "dateInHebrew": "ג׳ סיון",
+      "month": "Sivan ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230524,
+      "hebrewDate": "4 Sivan 5783",
+      "dateInHebrew": "ד׳ סיון",
+      "month": "Sivan ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230525,
+      "hebrewDate": "5 Sivan 5783",
+      "dateInHebrew": "ה׳ סיון",
+      "month": "Sivan ",
+      "holiday": "Erev Shavuot",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230526,
+      "hebrewDate": "6 Sivan 5783",
+      "dateInHebrew": "ו׳ סיון",
+      "month": "Sivan ",
+      "holiday": "Shavuot I",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230528,
+      "hebrewDate": "8 Sivan 5783",
+      "dateInHebrew": "ח׳ סיון",
+      "month": "Sivan ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230527,
+      "hebrewDate": "7 Sivan 5783",
+      "dateInHebrew": "ז׳ סיון",
+      "month": "Sivan ",
+      "holiday": "Shavuot II",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230529,
+      "hebrewDate": "9 Sivan 5783",
+      "dateInHebrew": "ט׳ סיון",
+      "month": "Sivan ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230530,
+      "hebrewDate": "10 Sivan 5783",
+      "dateInHebrew": "י׳ סיון",
+      "month": " Sivan ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230531,
+      "hebrewDate": "11 Sivan 5783",
+      "dateInHebrew": "י״א סיון",
+      "month": " Sivan ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230601,
+      "hebrewDate": "12 Sivan 5783",
+      "dateInHebrew": "י״ב סיון",
+      "month": " Sivan ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230603,
+      "hebrewDate": "14 Sivan 5783",
+      "dateInHebrew": "י״ד סיון",
+      "month": " Sivan ",
+      "parsha": "Parashat Nasso",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230604,
+      "hebrewDate": "15 Sivan 5783",
+      "dateInHebrew": "ט״ו סיון",
+      "month": " Sivan ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230605,
+      "hebrewDate": "16 Sivan 5783",
+      "dateInHebrew": "ט״ז סיון",
+      "month": " Sivan ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230606,
+      "hebrewDate": "17 Sivan 5783",
+      "dateInHebrew": "י״ז סיון",
+      "month": " Sivan ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230607,
+      "hebrewDate": "18 Sivan 5783",
+      "dateInHebrew": "י״ח סיון",
+      "month": " Sivan ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230609,
+      "hebrewDate": "20 Sivan 5783",
+      "dateInHebrew": "כ׳ סיון",
+      "month": " Sivan ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230611,
+      "hebrewDate": "22 Sivan 5783",
+      "dateInHebrew": "כ״ב סיון",
+      "month": " Sivan ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230608,
+      "hebrewDate": "19 Sivan 5783",
+      "dateInHebrew": "י״ט סיון",
+      "month": " Sivan ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230612,
+      "hebrewDate": "23 Sivan 5783",
+      "dateInHebrew": "כ״ג סיון",
+      "month": " Sivan ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230616,
+      "hebrewDate": "27 Sivan 5783",
+      "dateInHebrew": "כ״ז סיון",
+      "month": " Sivan ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230615,
+      "hebrewDate": "26 Sivan 5783",
+      "dateInHebrew": "כ״ו סיון",
+      "month": " Sivan ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230618,
+      "hebrewDate": "29 Sivan 5783",
+      "dateInHebrew": "כ״ט סיון",
+      "month": " Sivan ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230602,
+      "hebrewDate": "13 Sivan 5783",
+      "dateInHebrew": "י״ג סיון",
+      "month": " Sivan ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230610,
+      "hebrewDate": "21 Sivan 5783",
+      "dateInHebrew": "כ״א סיון",
+      "month": " Sivan ",
+      "parsha": "Parashat Beha'alotcha",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230614,
+      "hebrewDate": "25 Sivan 5783",
+      "dateInHebrew": "כ״ה סיון",
+      "month": " Sivan ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230613,
+      "hebrewDate": "24 Sivan 5783",
+      "dateInHebrew": "כ״ד סיון",
+      "month": " Sivan ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230617,
+      "hebrewDate": "28 Sivan 5783",
+      "dateInHebrew": "כ״ח סיון",
+      "month": " Sivan ",
+      "weekday": "Saturday",
+      "parsha": "Parashat Sh'lach"
+    }
+  ],
+  "Tammuz": [
+    {
+      "id": 20230621,
+      "hebrewDate": "2 Tamuz 5783",
+      "dateInHebrew": "ב׳ תמוז",
+      "month": "Tamuz ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230620,
+      "hebrewDate": "1 Tamuz 5783",
+      "dateInHebrew": "א׳ תמוז",
+      "month": "Tamuz ",
+      "weekday": "Tuesday",
+      "roshChodesh": "Rosh Chodesh Tamuz"
+    },
+    {
+      "id": 20230619,
+      "hebrewDate": "30 Sivan 5783",
+      "dateInHebrew": "ל׳ סיון",
+      "month": " Sivan ",
+      "weekday": "Monday",
+      "roshChodesh": "Rosh Chodesh Tamuz"
+    },
+    {
+      "id": 20230623,
+      "hebrewDate": "4 Tamuz 5783",
+      "dateInHebrew": "ד׳ תמוז",
+      "month": "Tamuz ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230622,
+      "hebrewDate": "3 Tamuz 5783",
+      "dateInHebrew": "ג׳ תמוז",
+      "month": "Tamuz ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230624,
+      "hebrewDate": "5 Tamuz 5783",
+      "dateInHebrew": "ה׳ תמוז",
+      "month": "Tamuz ",
+      "parsha": "Parashat Korach",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230625,
+      "hebrewDate": "6 Tamuz 5783",
+      "dateInHebrew": "ו׳ תמוז",
+      "month": "Tamuz ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230626,
+      "hebrewDate": "7 Tamuz 5783",
+      "dateInHebrew": "ז׳ תמוז",
+      "month": "Tamuz ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230627,
+      "hebrewDate": "8 Tamuz 5783",
+      "dateInHebrew": "ח׳ תמוז",
+      "month": "Tamuz ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230628,
+      "hebrewDate": "9 Tamuz 5783",
+      "dateInHebrew": "ט׳ תמוז",
+      "month": "Tamuz ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230629,
+      "hebrewDate": "10 Tamuz 5783",
+      "dateInHebrew": "י׳ תמוז",
+      "month": " Tamuz ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230707,
+      "hebrewDate": "18 Tamuz 5783",
+      "dateInHebrew": "י״ח תמוז",
+      "month": " Tamuz ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230711,
+      "hebrewDate": "22 Tamuz 5783",
+      "dateInHebrew": "כ״ב תמוז",
+      "month": " Tamuz ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230710,
+      "hebrewDate": "21 Tamuz 5783",
+      "dateInHebrew": "כ״א תמוז",
+      "month": " Tamuz ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230709,
+      "hebrewDate": "20 Tamuz 5783",
+      "dateInHebrew": "כ׳ תמוז",
+      "month": " Tamuz ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230708,
+      "hebrewDate": "19 Tamuz 5783",
+      "dateInHebrew": "י״ט תמוז",
+      "month": " Tamuz ",
+      "parsha": "Parashat Pinchas",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230706,
+      "hebrewDate": "17 Tamuz 5783",
+      "dateInHebrew": "י״ז תמוז",
+      "month": " Tamuz ",
+      "holiday": "Tzom Tammuz",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230712,
+      "hebrewDate": "23 Tamuz 5783",
+      "dateInHebrew": "כ״ג תמוז",
+      "month": " Tamuz ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230713,
+      "hebrewDate": "24 Tamuz 5783",
+      "dateInHebrew": "כ״ד תמוז",
+      "month": " Tamuz ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230714,
+      "hebrewDate": "25 Tamuz 5783",
+      "dateInHebrew": "כ״ה תמוז",
+      "month": " Tamuz ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230715,
+      "hebrewDate": "26 Tamuz 5783",
+      "dateInHebrew": "כ״ו תמוז",
+      "month": " Tamuz ",
+      "parsha": "Parashat Matot-Masei",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230716,
+      "hebrewDate": "27 Tamuz 5783",
+      "dateInHebrew": "כ״ז תמוז",
+      "month": " Tamuz ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230717,
+      "hebrewDate": "28 Tamuz 5783",
+      "dateInHebrew": "כ״ח תמוז",
+      "month": " Tamuz ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230702,
+      "hebrewDate": "13 Tamuz 5783",
+      "dateInHebrew": "י״ג תמוז",
+      "month": " Tamuz ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230701,
+      "hebrewDate": "12 Tamuz 5783",
+      "dateInHebrew": "י״ב תמוז",
+      "month": " Tamuz ",
+      "weekday": "Saturday",
+      "parsha": "Parashat Chukat-Balak"
+    },
+    {
+      "id": 20230630,
+      "hebrewDate": "11 Tamuz 5783",
+      "dateInHebrew": "י״א תמוז",
+      "month": " Tamuz ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230703,
+      "hebrewDate": "14 Tamuz 5783",
+      "dateInHebrew": "י״ד תמוז",
+      "month": " Tamuz ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230704,
+      "hebrewDate": "15 Tamuz 5783",
+      "dateInHebrew": "ט״ו תמוז",
+      "month": " Tamuz ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230705,
+      "hebrewDate": "16 Tamuz 5783",
+      "dateInHebrew": "ט״ז תמוז",
+      "month": " Tamuz ",
+      "weekday": "Wednesday"
+    }
+  ],
+  "Av": [
+    {
+      "id": 20230722,
+      "hebrewDate": "4 Av 5783",
+      "dateInHebrew": "ד׳ אב",
+      "month": "Av ",
+      "holiday": "Shabbat Chazon",
+      "parsha": "Parashat Devarim",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230719,
+      "hebrewDate": "1 Av 5783",
+      "dateInHebrew": "א׳ אב",
+      "month": "Av ",
+      "weekday": "Wednesday",
+      "roshChodesh": "Rosh Chodesh Av"
+    },
+    {
+      "id": 20230718,
+      "hebrewDate": "29 Tamuz 5783",
+      "dateInHebrew": "כ״ט תמוז",
+      "month": " Tamuz ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230720,
+      "hebrewDate": "2 Av 5783",
+      "dateInHebrew": "ב׳ אב",
+      "month": "Av ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230721,
+      "hebrewDate": "3 Av 5783",
+      "dateInHebrew": "ג׳ אב",
+      "month": "Av ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230723,
+      "hebrewDate": "5 Av 5783",
+      "dateInHebrew": "ה׳ אב",
+      "month": "Av ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230724,
+      "hebrewDate": "6 Av 5783",
+      "dateInHebrew": "ו׳ אב",
+      "month": "Av ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230725,
+      "hebrewDate": "7 Av 5783",
+      "dateInHebrew": "ז׳ אב",
+      "month": "Av ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230726,
+      "hebrewDate": "8 Av 5783",
+      "dateInHebrew": "ח׳ אב",
+      "month": "Av ",
+      "holiday": "Erev Tish'a B'Av",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230727,
+      "hebrewDate": "9 Av 5783",
+      "dateInHebrew": "ט׳ אב",
+      "month": "Av ",
+      "holiday": "Tish'a B'Av",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230728,
+      "hebrewDate": "10 Av 5783",
+      "dateInHebrew": "י׳ אב",
+      "month": " Av ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230729,
+      "hebrewDate": "11 Av 5783",
+      "dateInHebrew": "י״א אב",
+      "month": " Av ",
+      "holiday": "Shabbat Nachamu",
+      "parsha": "Parashat Vaetchanan",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230805,
+      "hebrewDate": "18 Av 5783",
+      "dateInHebrew": "י״ח אב",
+      "month": " Av ",
+      "parsha": "Parashat Eikev",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230806,
+      "hebrewDate": "19 Av 5783",
+      "dateInHebrew": "י״ט אב",
+      "month": " Av ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230807,
+      "hebrewDate": "20 Av 5783",
+      "dateInHebrew": "כ׳ אב",
+      "month": " Av ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230808,
+      "hebrewDate": "21 Av 5783",
+      "dateInHebrew": "כ״א אב",
+      "month": " Av ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230809,
+      "hebrewDate": "22 Av 5783",
+      "dateInHebrew": "כ״ב אב",
+      "month": " Av ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230811,
+      "hebrewDate": "24 Av 5783",
+      "dateInHebrew": "כ״ד אב",
+      "month": " Av ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230812,
+      "hebrewDate": "25 Av 5783",
+      "dateInHebrew": "כ״ה אב",
+      "month": " Av ",
+      "parsha": "Parashat Re'eh",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230810,
+      "hebrewDate": "23 Av 5783",
+      "dateInHebrew": "כ״ג אב",
+      "month": " Av ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230813,
+      "hebrewDate": "26 Av 5783",
+      "dateInHebrew": "כ״ו אב",
+      "month": " Av ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230816,
+      "hebrewDate": "29 Av 5783",
+      "dateInHebrew": "כ״ט אב",
+      "month": " Av ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230814,
+      "hebrewDate": "27 Av 5783",
+      "dateInHebrew": "כ״ז אב",
+      "month": " Av ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230731,
+      "hebrewDate": "13 Av 5783",
+      "dateInHebrew": "י״ג אב",
+      "month": " Av ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230803,
+      "hebrewDate": "16 Av 5783",
+      "dateInHebrew": "ט״ז אב",
+      "month": " Av ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230801,
+      "hebrewDate": "14 Av 5783",
+      "dateInHebrew": "י״ד אב",
+      "month": " Av ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230804,
+      "hebrewDate": "17 Av 5783",
+      "dateInHebrew": "י״ז אב",
+      "month": " Av ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230802,
+      "hebrewDate": "15 Av 5783",
+      "dateInHebrew": "ט״ו אב",
+      "month": " Av ",
+      "weekday": "Wednesday",
+      "holiday": "Tu B'Av"
+    },
+    {
+      "id": 20230730,
+      "hebrewDate": "12 Av 5783",
+      "dateInHebrew": "י״ב אב",
+      "month": " Av ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230817,
+      "hebrewDate": "30 Av 5783",
+      "dateInHebrew": "ל׳ אב",
+      "month": " Av ",
+      "weekday": "Thursday",
+      "roshChodesh": "Rosh Chodesh Elul"
+    },
+    {
+      "id": 20230815,
+      "hebrewDate": "28 Av 5783",
+      "dateInHebrew": "כ״ח אב",
+      "month": " Av ",
+      "weekday": "Tuesday"
+    }
+  ],
+  "Elul": [
+    {
+      "id": 20230820,
+      "hebrewDate": "3 Elul 5783",
+      "dateInHebrew": "ג׳ אלול",
+      "month": "Elul ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230821,
+      "hebrewDate": "4 Elul 5783",
+      "dateInHebrew": "ד׳ אלול",
+      "month": "Elul ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230822,
+      "hebrewDate": "5 Elul 5783",
+      "dateInHebrew": "ה׳ אלול",
+      "month": "Elul ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230823,
+      "hebrewDate": "6 Elul 5783",
+      "dateInHebrew": "ו׳ אלול",
+      "month": "Elul ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230824,
+      "hebrewDate": "7 Elul 5783",
+      "dateInHebrew": "ז׳ אלול",
+      "month": "Elul ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230825,
+      "hebrewDate": "8 Elul 5783",
+      "dateInHebrew": "ח׳ אלול",
+      "month": "Elul ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230826,
+      "hebrewDate": "9 Elul 5783",
+      "dateInHebrew": "ט׳ אלול",
+      "month": "Elul ",
+      "parsha": "Parashat Ki Teitzei",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230827,
+      "hebrewDate": "10 Elul 5783",
+      "dateInHebrew": "י׳ אלול",
+      "month": " Elul ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230828,
+      "hebrewDate": "11 Elul 5783",
+      "dateInHebrew": "י״א אלול",
+      "month": " Elul ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230829,
+      "hebrewDate": "12 Elul 5783",
+      "dateInHebrew": "י״ב אלול",
+      "month": " Elul ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230830,
+      "hebrewDate": "13 Elul 5783",
+      "dateInHebrew": "י״ג אלול",
+      "month": " Elul ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230831,
+      "hebrewDate": "14 Elul 5783",
+      "dateInHebrew": "י״ד אלול",
+      "month": " Elul ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230904,
+      "hebrewDate": "18 Elul 5783",
+      "dateInHebrew": "י״ח אלול",
+      "month": " Elul ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230905,
+      "hebrewDate": "19 Elul 5783",
+      "dateInHebrew": "י״ט אלול",
+      "month": " Elul ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230906,
+      "hebrewDate": "20 Elul 5783",
+      "dateInHebrew": "כ׳ אלול",
+      "month": " Elul ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230907,
+      "hebrewDate": "21 Elul 5783",
+      "dateInHebrew": "כ״א אלול",
+      "month": " Elul ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230908,
+      "hebrewDate": "22 Elul 5783",
+      "dateInHebrew": "כ״ב אלול",
+      "month": " Elul ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230909,
+      "hebrewDate": "23 Elul 5783",
+      "dateInHebrew": "כ״ג אלול",
+      "month": " Elul ",
+      "holiday": "Leil Selichot",
+      "parsha": "Parashat Nitzavim-Vayeilech",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230910,
+      "hebrewDate": "24 Elul 5783",
+      "dateInHebrew": "כ״ד אלול",
+      "month": " Elul ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230911,
+      "hebrewDate": "25 Elul 5783",
+      "dateInHebrew": "כ״ה אלול",
+      "month": " Elul ",
+      "weekday": "Monday"
+    },
+    {
+      "id": 20230915,
+      "hebrewDate": "29 Elul 5783",
+      "dateInHebrew": "כ״ט אלול",
+      "month": " Elul ",
+      "holiday": "Erev Rosh Hashana",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230912,
+      "hebrewDate": "26 Elul 5783",
+      "dateInHebrew": "כ״ו אלול",
+      "month": " Elul ",
+      "weekday": "Tuesday"
+    },
+    {
+      "id": 20230913,
+      "hebrewDate": "27 Elul 5783",
+      "dateInHebrew": "כ״ז אלול",
+      "month": " Elul ",
+      "weekday": "Wednesday"
+    },
+    {
+      "id": 20230914,
+      "hebrewDate": "28 Elul 5783",
+      "dateInHebrew": "כ״ח אלול",
+      "month": " Elul ",
+      "weekday": "Thursday"
+    },
+    {
+      "id": 20230818,
+      "hebrewDate": "1 Elul 5783",
+      "dateInHebrew": "א׳ אלול",
+      "month": "Elul ",
+      "weekday": "Friday",
+      "holiday": "Rosh Hashana LaBehemot",
+      "roshChodesh": "Rosh Chodesh Elul"
+    },
+    {
+      "id": 20230901,
+      "hebrewDate": "15 Elul 5783",
+      "dateInHebrew": "ט״ו אלול",
+      "month": " Elul ",
+      "weekday": "Friday"
+    },
+    {
+      "id": 20230902,
+      "hebrewDate": "16 Elul 5783",
+      "dateInHebrew": "ט״ז אלול",
+      "month": " Elul ",
+      "parsha": "Parashat Ki Tavo",
+      "weekday": "Saturday"
+    },
+    {
+      "id": 20230903,
+      "hebrewDate": "17 Elul 5783",
+      "dateInHebrew": "י״ז אלול",
+      "month": " Elul ",
+      "weekday": "Sunday"
+    },
+    {
+      "id": 20230819,
+      "hebrewDate": "2 Elul 5783",
+      "dateInHebrew": "ב׳ אלול",
+      "month": "Elul ",
+      "weekday": "Saturday",
+      "parsha": "Parashat Shoftim"
     }
   ]
 }

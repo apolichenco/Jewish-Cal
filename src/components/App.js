@@ -25,7 +25,7 @@ function App() {
           <EventsList ourOwn={ourOwn}/>
         </Route>
         <Route path="/add-event">
-          <AddEventForm />
+          <AddEventForm ourOwn={ourOwn}/>
         </Route>
         <Route exact path="/">
           <Calendar ourOwn={ourOwn}/>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 
-function AddEventForm() {
+function AddEventForm({ourOwn}) {
   const [eventName, setEventName] = useState()
   const [newEventDate, setNewEventDate] = useState(1)
   const [numbers, setNumbers] = useState([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30])
@@ -17,8 +17,19 @@ function AddEventForm() {
 
   function handleSubmit(e) {
     e.preventDefault()
-    
-    console.log(`name:${eventName}, day:${newEventDate}`)
+    console.log(eventName)
+    const theDay = ourOwn.find((day) => day.hebrewDate === `${newEventDate} Tishrei 5783`)
+    fetch(`http://localhost:3000/dates/${theDay.id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        privateEvent: eventName
+      })
+    })
+    .then((r) => r.json())
+    .then((data) => console.log(data))
   }
 
   return (

@@ -11,6 +11,7 @@ function Day({day}) {
         <h5>{day.holiday ? day.holiday : null}</h5>
         <h5>{day.parsha ? day.parsha : null}</h5>
         <h5>{day.roshChodesh ? day.roshChodesh : null}</h5>
+        <h5>{day.privateEvent ? day.privateEvent : null}</h5>
       </td>
   );
 }

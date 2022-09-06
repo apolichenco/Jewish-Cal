@@ -4,14 +4,18 @@ import React from "react";
 function Day({day}) {
 
   const noYear = day.hebrewDate.slice(0, day.hebrewDate.length - 4);
+  const blue = {color: "blue"}
+  const green = {color: "green"}
+  const orange = {color: "orange"}
+  const purple = {color: "purple"}
 
   return (
       <td>
-        <h4>{noYear}</h4>
-        <h5>{day.holiday ? day.holiday : null}</h5>
-        <h5>{day.parsha ? day.parsha : null}</h5>
-        <h5>{day.roshChodesh ? day.roshChodesh : null}</h5>
-        <h5>{day.privateEvent ? day.privateEvent : null}</h5>
+        <h4 style={orange}>{noYear}</h4>
+        <h5 style={green}>{day.holiday ? day.holiday : null}</h5>
+        <h5 style={purple}>{day.parsha ? day.parsha : null}</h5>
+        <h5 style={green}>{day.roshChodesh ? day.roshChodesh : null}</h5>
+        <h5 style={blue}>{day.privateEvent ? day.privateEvent : null}</h5>
       </td>
   );
 }

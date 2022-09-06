@@ -110,6 +110,27 @@ function AllTheData() {
     //     })
     //   }, [])
 
+    // useEffect (() => {
+    //   ourOwn.map((day) => {
+    //         const dateNumber = day.id.toString()
+    //         const yearNum = dateNumber.substring(0, 4)
+    //         const monthNum = dateNumber.substring(4, 6)
+    //         const dayNum = dateNumber.substring(6, 8)
+    //         const finalDate = new Date (`${yearNum}, ${monthNum}, ${dayNum}`) 
+    //         const options = { weekday: 'long'};
+    //         const weekDay = new Intl.DateTimeFormat('en-US', options).format(finalDate);
+    //     fetch(`http://localhost:3000/dates/${day.id}`, {
+    //       method: "PATCH",
+    //       headers: {
+    //         "Content-Type": "application/json",
+    //       },
+    //       body: JSON.stringify({
+    //         weekday: weekDay
+    //       })
+    //     })
+    //     .then((r) => r.json())
+    //     .then((data) => console.log(data))
+    //   })}, [])
 
 
   return (

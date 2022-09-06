@@ -1,11 +1,17 @@
 import React, { useState } from "react";
 
 
-function AddEventForm({ourOwn}) {
+function AddEventForm({ourOwn, handleNew}) {
   const [eventName, setEventName] = useState()
-  const [newEventDate, setNewEventDate] = useState(1)
-  const [numbers, setNumbers] = useState([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30])
-
+  const [newEventDate, setNewEventDate] = useState("")
+  // const numbers= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+  
+  let k = [""]
+  let i = 1
+  while (i < 31) {
+    k[i]= i;
+    i = i + 1;
+  }
 
   function handleEventName(e) {
     setEventName(e.target.value)
@@ -29,7 +35,7 @@ function AddEventForm({ourOwn}) {
       })
     })
     .then((r) => r.json())
-    .then((data) => console.log(data))
+    .then((data) => handleNew(data))
   }
 
   return (
@@ -39,7 +45,7 @@ function AddEventForm({ourOwn}) {
         <input type="text" id="event-name" name="event-name" onChange={handleEventName}></input><br></br>
         <label>Day:</label><br></br>
         <select onChange={handleDayChange}>
-          {numbers.map((number) => <option key={number} value={number}>{number}</option>)}
+          {k.map((number) => <option key={number} value={number}>{number}</option>)}
         </select><br></br>
         <input type="submit"></input>
       </form>

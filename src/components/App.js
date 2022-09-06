@@ -17,6 +17,23 @@ function App() {
       setOurOwn(sortedOurOwn)})
   }, [])
 
+  function handleOurOwn(item) {
+    const updatedDays = ourOwn.map((day) => {
+      if (day.id === item.id) {
+        return item
+      }
+      else {
+        return day
+      }
+    })
+    console.log(updatedDays)
+    const sortedOurOwn = updatedDays.sort((a, b) => a.id - b.id);
+    console.log(sortedOurOwn)
+    setOurOwn(sortedOurOwn)
+  }
+
+
+
   return (
     <div>
       <Header />
@@ -25,13 +42,12 @@ function App() {
           <EventsList ourOwn={ourOwn}/>
         </Route>
         <Route path="/add-event">
-          <AddEventForm ourOwn={ourOwn}/>
+          <AddEventForm ourOwn={ourOwn} handleNew={handleOurOwn}/>
         </Route>
         <Route exact path="/">
           <Calendar ourOwn={ourOwn}/>
         </Route>
       </Switch>
-      <AllTheData />
     </div>
   );
 }

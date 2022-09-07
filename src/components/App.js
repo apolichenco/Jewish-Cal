@@ -9,7 +9,7 @@ import { Route, Switch} from "react-router-dom"
 function App() {
   const [ourOwn, setOurOwn] = useState([])
   const [monthNumber, setMonthNumber] = useState(1)
-  const [thisMonth, setThisMonth] = useState([])
+  // const [thisMonth, setThisMonth] = useState([])
 
   const months = [
     "Tishrei",
@@ -26,40 +26,35 @@ function App() {
     "Elul"
   ]
 
-    function fetchDays() {
+  useEffect (() => {
     fetch(`http://localhost:3000/${months[monthNumber]}`)
     .then((r) => r.json())
     .then((data) => {
-      const sortedData = data.sort((a, b) => a.id - b.id);
+      const sortedData = data.sort((a, b) => a.id - b.id)
+      const fixedMonth = sortedData;
+      if (sortedData[0].weekday === "Monday") {
+        fixedMonth.splice(0, 0, "")
+      }
+      if (sortedData[0].weekday === "Tuesday") {
+        fixedMonth.splice(0, 0, "","")
+      }
+      if (sortedData[0].weekday === "Wednesday") {
+        fixedMonth.splice(0, 0, "", "", "")
+      }
+      if (sortedData[0].weekday === "Thursday") {
+        fixedMonth.splice(0, 0, "", "", "", "")
+      }
+      if (sortedData[0].weekday === "Friday") {
+        fixedMonth.splice(0, 0, "", "", "", "","")
+      }
+      if (sortedData[0].weekday === "Saturday") {
+        fixedMonth.splice(0, 0, "", "", "", "", "", "")
+      }      
+      // setThisMonth(fixedMonth)
       setOurOwn(sortedData)
     })
-    }
+  }, [monthNumber])
 
-
-  useEffect (() => {fetchDays()}, [setThisMonth])
-
-  useEffect (() => {
-    const fixedMonth = ourOwn;
-    if (ourOwn[0].weekday === "Monday") {
-      fixedMonth.splice(0, 0, "")
-    }
-    if (ourOwn[0].weekday === "Tuesday") {
-      fixedMonth.splice(0, 0, "","")
-    }
-    if (ourOwn[0].weekday === "Wednesday") {
-      fixedMonth.splice(0, 0, "", "", "")
-    }
-    if (ourOwn[0].weekday === "Thursday") {
-      fixedMonth.splice(0, 0, "", "", "", "")
-    }
-    if (ourOwn[0].weekday === "Friday") {
-      fixedMonth.splice(0, 0, "", "", "", "","")
-    }
-    if (ourOwn[0].weekday === "Saturday") {
-      fixedMonth.splice(0, 0, "", "", "", "", "", "")
-    }      
-    setThisMonth(fixedMonth)
-}, [thisMonth])
 
   function handleOurOwn(item) {
     const updatedDays = ourOwn.map((day) => {
@@ -76,15 +71,12 @@ function App() {
 
   function goToPreviousMonth() {
     if (monthNumber >= 0) {
-      fetchDays()
       setMonthNumber(monthNumber - 1)
-      
     }
   }
 
   function goToNextMonth() {
     if (monthNumber < 12) {
-      fetchDays()
       setMonthNumber(monthNumber + 1)
     }
   }
@@ -100,7 +92,7 @@ function App() {
           <AddEventForm ourOwn={ourOwn} handleNew={handleOurOwn}/>
         </Route>
         <Route exact path="/">
-          <Calendar ourOwn={thisMonth} goToPreviousMonth={goToPreviousMonth} goToNextMonth={goToNextMonth}/>
+          <Calendar ourOwn={ourOwn} goToPreviousMonth={goToPreviousMonth} goToNextMonth={goToNextMonth}/>
         </Route>
       </Switch>
       {/* <AllTheData /> */}

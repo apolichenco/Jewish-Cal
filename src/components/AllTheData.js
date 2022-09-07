@@ -139,3 +139,7 @@ function AllTheData() {
 }
 
 export default AllTheData
+            // const yearNum = noSpace.substring(0, 4)
+            // const monthNum = noSpace.substring(4, 6)
+            // const dayNum = noSpace.substring(6, 8)
+            // const finalDate = new Date (`${yearNum}, ${monthNum}, ${dayNum}`) 

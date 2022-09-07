@@ -53,7 +53,8 @@
       "hebrewDate": "8 Tishrei 5783",
       "dateInHebrew": "ח׳ תשרי",
       "month": "Tishrei ",
-      "weekday": "Monday"
+      "weekday": "Monday",
+      "privateEvent": "Flight to LA"
     },
     {
       "id": 20221004,
@@ -237,7 +238,8 @@
       "hebrewDate": "28 Tishrei 5783",
       "dateInHebrew": "כ״ח תשרי",
       "month": " Tishrei ",
-      "weekday": "Sunday"
+      "weekday": "Sunday",
+      "privateEvent": "ויעקב הלך לדרכו"
     }
   ],
   "Cheshvan": [

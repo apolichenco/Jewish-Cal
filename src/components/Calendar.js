@@ -1,19 +1,31 @@
-import React from "react";
+import React, {useState} from "react";
 import Day from "./Day";
 
 
 function Calendar({ourOwn, goToPreviousMonth, goToNextMonth}) {
+
   const month = []
-  if (ourOwn[0] !== "Sunday")
+
+
+
+
   ourOwn.forEach((day) => {
-    if (day.weekday === "Sunday") {
+    if (day == false) {
       const week = []
       month.push(week)
     }
-    month[month.length - 1].push(day)
+    if (day.weekday === "Sunday") {
+      const week = []
+      month.push(week)
+      month[month.length - 1].push(day)
+      }
+      else {
+        month[month.length - 1].push(day)
+      }
+      
   })
 
-  
+  console.log(month)
 
 
   return (

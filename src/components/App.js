@@ -9,6 +9,7 @@ import { Route, Switch} from "react-router-dom"
 function App() {
   const [ourOwn, setOurOwn] = useState([])
   const [monthNumber, setMonthNumber] = useState(0)
+  const [thisMonth, setThisMonth] = useState([])
 
   const months = [
     "Tishrei",
@@ -25,21 +26,37 @@ function App() {
     "Elul"
   ]
 
-  // useEffect (() => {
     function fetchDays() {
-          fetch(`http://localhost:3000/${months[monthNumber]}`)
+    fetch(`http://localhost:3000/${months[monthNumber]}`)
     .then((r) => r.json())
     .then((data) => {
-      console.log(data)
       const sortedData = data.sort((a, b) => a.id - b.id);
       setOurOwn(sortedData)
-      
     })
     }
-console.log(ourOwn)
-  // }, [setMonthNumber])
+
 
   useEffect (() => {fetchDays()}, [])
+
+//   useEffect (() => {
+//     console.log(ourOwn[0])
+//     const fixedMonth = ourOwn
+//     if (ourOwn[0].weekday !== "Sunday") {
+//       const noSpace = ourOwn[0].id.toString()
+//       const yearNum = noSpace.substring(0, 4)
+//       const monthNum = noSpace.substring(4, 6)
+//       const dayNum = noSpace.substring(6, 8)
+//       const finalDate = new Date (`${yearNum}, ${monthNum}, ${dayNum}`) 
+//       const minus = finalDate.getDay()
+//       const emptyDays = 7 - minus
+//       let i = 1
+//       while (i < emptyDays) {
+//         fixedMonth.splice(0, 0, "")
+//         i = i + 1
+//       }
+//       setOurOwn(fixedMonth)
+//     }
+// }, [ourOwn])
 
   function handleOurOwn(item) {
     const updatedDays = ourOwn.map((day) => {
@@ -55,16 +72,17 @@ console.log(ourOwn)
   }
 
   function goToPreviousMonth() {
-    if (monthNumber > 0) {
-      setMonthNumber(monthNumber - 1)
+    if (monthNumber >= 0) {
       fetchDays()
+      setMonthNumber(monthNumber - 1)
+      
     }
   }
 
   function goToNextMonth() {
-    if (monthNumber > 0) {
-      setMonthNumber(monthNumber = 1)
+    if (monthNumber < 12) {
       fetchDays()
+      setMonthNumber(monthNumber + 1)
     }
   }
 

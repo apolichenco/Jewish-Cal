@@ -8,8 +8,7 @@ import { Route, Switch} from "react-router-dom"
  
 function App() {
   const [ourOwn, setOurOwn] = useState([])
-  const [monthNumber, setMonthNumber] = useState(1)
-  // const [thisMonth, setThisMonth] = useState([])
+  const [monthNumber, setMonthNumber] = useState(0)
 
   const months = [
     "Tishrei",
@@ -50,7 +49,6 @@ function App() {
       if (sortedData[0].weekday === "Saturday") {
         fixedMonth.splice(0, 0, "", "", "", "", "", "")
       }      
-      // setThisMonth(fixedMonth)
       setOurOwn(sortedData)
     })
   }, [monthNumber])

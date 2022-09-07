@@ -7,7 +7,6 @@ function Calendar({ourOwn, goToPreviousMonth, goToNextMonth}) {
   const month = []
 
   ourOwn.forEach((day, index) => {
-    console.log(index === 0 && day == false)
     if (index === 0 && day == false) {
       const week = []
       month.push(week)
@@ -15,17 +14,16 @@ function Calendar({ourOwn, goToPreviousMonth, goToNextMonth}) {
     if (day.weekday === "Sunday") {
       const week = []
       month.push(week)
-      }
-        month[month.length - 1].push(day)   
+    }
+    month[month.length - 1].push(day)   
   })
 
-  console.log(month)
 
 
   return (
     <div className='app'>
-      {/* <button onClick={goToPreviousMonth}>Previous Month</button>
-      <button onClick={goToNextMonth}>Next Month</button> */}
+      <button onClick={goToPreviousMonth}>Previous Month</button>
+      <button onClick={goToNextMonth}>Next Month</button>
       <table>
         <thead>
           <tr>

@@ -3,16 +3,8 @@ import Day from "./Day";
 
 
 function Calendar({ourOwn, goToPreviousMonth, goToNextMonth}) {
-
-  function goToPreviousMonth() {
-    console.log("HI")
-  }
-
-  function goToNextMonth() {
-    console.log("HI")
-  }
-
   const month = []
+  if (ourOwn[0] !== "Sunday")
   ourOwn.forEach((day) => {
     if (day.weekday === "Sunday") {
       const week = []
@@ -20,6 +12,9 @@ function Calendar({ourOwn, goToPreviousMonth, goToNextMonth}) {
     }
     month[month.length - 1].push(day)
   })
+
+  
+
 
   return (
     <div className='app'>

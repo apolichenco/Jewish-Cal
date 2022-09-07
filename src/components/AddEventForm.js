@@ -3,8 +3,8 @@ import React, { useState } from "react";
 
 function AddEventForm({ourOwn, handleNew}) {
   const [eventName, setEventName] = useState()
-  const [newEventDate, setNewEventDate] = useState("")
-  const [eventMonth, setEventMonth] = useState()
+  const [newEventDate, setNewEventDate] = useState()
+  const [eventMonth, setEventMonth] = useState("Tishrei")
   const [eventYear, setEventYear] = useState(5783)
   
   let k = [""]
@@ -33,7 +33,8 @@ function AddEventForm({ourOwn, handleNew}) {
   function handleSubmit(e) {
     e.preventDefault()
     const theDay = ourOwn.find((day) => day.hebrewDate === `${newEventDate} ${eventMonth} ${eventYear}`)
-    fetch(`http://localhost:3000/dates/${theDay.id}`, {
+    console.log(`${newEventDate} ${eventMonth} ${eventYear}`)
+    fetch(`http://localhost:3000/${eventMonth}/${theDay.id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -55,7 +56,7 @@ function AddEventForm({ourOwn, handleNew}) {
         <select onChange={handleDayChange}>
           {k.map((number) => <option key={number} value={number}>{number}</option>)}
         </select><br></br>
-        <label>Month:</label><br></br>
+        <label>Choose Month:</label><br></br>
         <select onChange={handleMonthChange}>
           <option value={"Tishrei"}>Tishrei</option>
           <option value={'Cheshvan'}>Cheshvan</option>

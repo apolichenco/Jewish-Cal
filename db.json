@@ -129,7 +129,7 @@
       "dateInHebrew": "כ״ו תשרי",
       "month": " Tishrei ",
       "weekday": "Friday"
-    }, 
+    },
     {
       "id": 20221022,
       "hebrewDate": "27 Tishrei 5783",
@@ -181,7 +181,8 @@
       "dateInHebrew": "ט״ו תשרי",
       "month": " Tishrei ",
       "holiday": "Sukkot I",
-      "weekday": "Monday"
+      "weekday": "Monday",
+      "privateEvent": "Birthday!"
     },
     {
       "id": 20221008,
@@ -239,8 +240,7 @@
       "weekday": "Sunday"
     }
   ],
-  
-  "Chesvan": [
+  "Cheshvan": [
     {
       "id": 20221103,
       "hebrewDate": "9 Cheshvan 5783",

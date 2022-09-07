@@ -25,15 +25,21 @@ function App() {
     "Elul"
   ]
 
-  
-
-  useEffect (() => {
-    fetch(`http://localhost:3000/${months[monthNumber]}`)
+  // useEffect (() => {
+    function fetchDays() {
+          fetch(`http://localhost:3000/${months[monthNumber]}`)
     .then((r) => r.json())
     .then((data) => {
-      const sortedOurOwn = data.sort((a, b) => a.id - b.id);
-      setOurOwn(sortedOurOwn)})
-  }, [])
+      console.log(data)
+      const sortedData = data.sort((a, b) => a.id - b.id);
+      setOurOwn(sortedData)
+      
+    })
+    }
+console.log(ourOwn)
+  // }, [setMonthNumber])
+
+  useEffect (() => {fetchDays()}, [])
 
   function handleOurOwn(item) {
     const updatedDays = ourOwn.map((day) => {
@@ -51,12 +57,14 @@ function App() {
   function goToPreviousMonth() {
     if (monthNumber > 0) {
       setMonthNumber(monthNumber - 1)
+      fetchDays()
     }
   }
 
   function goToNextMonth() {
     if (monthNumber > 0) {
       setMonthNumber(monthNumber = 1)
+      fetchDays()
     }
   }
 

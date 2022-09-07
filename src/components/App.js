@@ -8,7 +8,7 @@ import { Route, Switch} from "react-router-dom"
  
 function App() {
   const [ourOwn, setOurOwn] = useState([])
-  const [monthNumber, setMonthNumber] = useState(0)
+  const [monthNumber, setMonthNumber] = useState(1)
   const [thisMonth, setThisMonth] = useState([])
 
   const months = [
@@ -36,27 +36,30 @@ function App() {
     }
 
 
-  useEffect (() => {fetchDays()}, [])
+  useEffect (() => {fetchDays()}, [setThisMonth])
 
-//   useEffect (() => {
-//     console.log(ourOwn[0])
-//     const fixedMonth = ourOwn
-//     if (ourOwn[0].weekday !== "Sunday") {
-//       const noSpace = ourOwn[0].id.toString()
-//       const yearNum = noSpace.substring(0, 4)
-//       const monthNum = noSpace.substring(4, 6)
-//       const dayNum = noSpace.substring(6, 8)
-//       const finalDate = new Date (`${yearNum}, ${monthNum}, ${dayNum}`) 
-//       const minus = finalDate.getDay()
-//       const emptyDays = 7 - minus
-//       let i = 1
-//       while (i < emptyDays) {
-//         fixedMonth.splice(0, 0, "")
-//         i = i + 1
-//       }
-//       setOurOwn(fixedMonth)
-//     }
-// }, [ourOwn])
+  useEffect (() => {
+    const fixedMonth = ourOwn;
+    if (ourOwn[0].weekday === "Monday") {
+      fixedMonth.splice(0, 0, "")
+    }
+    if (ourOwn[0].weekday === "Tuesday") {
+      fixedMonth.splice(0, 0, "","")
+    }
+    if (ourOwn[0].weekday === "Wednesday") {
+      fixedMonth.splice(0, 0, "", "", "")
+    }
+    if (ourOwn[0].weekday === "Thursday") {
+      fixedMonth.splice(0, 0, "", "", "", "")
+    }
+    if (ourOwn[0].weekday === "Friday") {
+      fixedMonth.splice(0, 0, "", "", "", "","")
+    }
+    if (ourOwn[0].weekday === "Saturday") {
+      fixedMonth.splice(0, 0, "", "", "", "", "", "")
+    }      
+    setThisMonth(fixedMonth)
+}, [thisMonth])
 
   function handleOurOwn(item) {
     const updatedDays = ourOwn.map((day) => {
@@ -97,7 +100,7 @@ function App() {
           <AddEventForm ourOwn={ourOwn} handleNew={handleOurOwn}/>
         </Route>
         <Route exact path="/">
-          <Calendar ourOwn={ourOwn} goToPreviousMonth={goToPreviousMonth} goToNextMonth={goToNextMonth}/>
+          <Calendar ourOwn={thisMonth} goToPreviousMonth={goToPreviousMonth} goToNextMonth={goToNextMonth}/>
         </Route>
       </Switch>
       {/* <AllTheData /> */}

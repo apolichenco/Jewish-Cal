@@ -899,7 +899,7 @@
       "weekday": "Friday"
     }
   ],
-  "Shvat": [
+  "Sh'vat": [
     {
       "id": 20230123,
       "hebrewDate": "1 Sh'vat 5783",
@@ -1336,14 +1336,15 @@
       "roshChodesh": "Rosh Chodesh Adar"
     }
   ],
-  "Nissan": [
+  "Nisan": [
     {
       "id": 20230323,
       "hebrewDate": "1 Nisan 5783",
       "dateInHebrew": "א׳ ניסן",
       "month": "Nisan ",
       "weekday": "Thursday",
-      "roshChodesh": "Rosh Chodesh Nisan"
+      "roshChodesh": "Rosh Chodesh Nisan",
+      "privateEvent": "Birthday!"
     },
     {
       "id": 20230324,
@@ -1563,7 +1564,7 @@
       "holiday": "Pesach IV (CH''M)"
     }
   ],
-  "Iyar": [
+  "Iyyar": [
     {
       "id": 20230423,
       "hebrewDate": "2 Iyyar 5783",
@@ -1626,7 +1627,8 @@
       "hebrewDate": "9 Iyyar 5783",
       "dateInHebrew": "ט׳ אייר",
       "month": "Iyyar ",
-      "weekday": "Sunday"
+      "weekday": "Sunday",
+      "privateEvent": "Birthday!"
     },
     {
       "id": 20230509,
@@ -1988,7 +1990,7 @@
       "parsha": "Parashat Sh'lach"
     }
   ],
-  "Tammuz": [
+  "Tamuz": [
     {
       "id": 20230621,
       "hebrewDate": "2 Tamuz 5783",
@@ -2521,7 +2523,8 @@
       "hebrewDate": "18 Elul 5783",
       "dateInHebrew": "י״ח אלול",
       "month": " Elul ",
-      "weekday": "Monday"
+      "weekday": "Monday",
+      "privateEvent": "Birthday!"
     },
     {
       "id": 20230905,

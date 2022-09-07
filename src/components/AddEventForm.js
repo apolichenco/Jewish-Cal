@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 
 function AddEventForm({ourOwn, handleNew}) {
@@ -6,6 +6,7 @@ function AddEventForm({ourOwn, handleNew}) {
   const [newEventDate, setNewEventDate] = useState()
   const [eventMonth, setEventMonth] = useState("Tishrei")
   const [eventYear, setEventYear] = useState(5783)
+  // const [anotherMonth, setAnotherMonth] = useState([])
   
   let k = [""]
   let i = 1
@@ -13,6 +14,11 @@ function AddEventForm({ourOwn, handleNew}) {
     k[i]= i;
     i = i + 1;
   }
+
+  // useEffect(() => {
+  // fetch(`http://localhost:3000/${months[monthNumber]}`)
+  // .then((r) => r.json())
+  // .then((data) => {setAnotherMonth(data)})}, [handleSubmit])
 
   function handleEventName(e) {
     setEventName(e.target.value)
@@ -32,8 +38,10 @@ function AddEventForm({ourOwn, handleNew}) {
 
   function handleSubmit(e) {
     e.preventDefault()
-    const theDay = ourOwn.find((day) => day.hebrewDate === `${newEventDate} ${eventMonth} ${eventYear}`)
-    console.log(`${newEventDate} ${eventMonth} ${eventYear}`)
+    fetch(`http://localhost:3000/${eventMonth}`)
+    .then((r) => r.json())
+    .then((data) => {
+    const theDay = data.find((day) => day.hebrewDate === `${newEventDate} ${eventMonth} ${eventYear}`)
     fetch(`http://localhost:3000/${eventMonth}/${theDay.id}`, {
       method: "PATCH",
       headers: {
@@ -45,6 +53,7 @@ function AddEventForm({ourOwn, handleNew}) {
     })
     .then((r) => r.json())
     .then((data) => handleNew(data))
+   })
   }
 
   return (
@@ -62,12 +71,12 @@ function AddEventForm({ourOwn, handleNew}) {
           <option value={'Cheshvan'}>Cheshvan</option>
           <option value={'Kislev'}>Kislev</option>
           <option value={'Tevet'}>Tevet</option>
-          <option value={'Shevat'}>Shevat</option>
+          <option value={`Sh'vat`}>Sh'vat</option>
           <option value={'Adar'}>Adar</option>
-          <option value={'Nissan'}>Nissan</option>
-          <option value={'Iyar'}>Iyar</option>
+          <option value={'Nisan'}>Nisan</option>
+          <option value={'Iyyar'}>Iyyar</option>
           <option value={'Sivan'}>Sivan</option>         
-          <option value={'Tammuz'}>Tammuz</option>
+          <option value={'Tamuz'}>Tamuz</option>
           <option value={'Av'}>Av</option>
           <option value={'Elul'}>Elul</option>
         </select><br></br>

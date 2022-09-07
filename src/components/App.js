@@ -15,12 +15,12 @@ function App() {
     "Cheshvan",
     "Kislev",
     "Tevet",
-    "Shvat",
+    `Sh'vat`,
     "Adar",
-    "Nissan",
-    "Iyar",
+    "Nisan",
+    "Iyyar",
     "Sivan",
-    "Tammuz",
+    "Tamuz",
     "Av",
     "Elul"
   ]

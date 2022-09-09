@@ -7,7 +7,7 @@ function Calendar({ourOwn, goToPreviousMonth, goToNextMonth}) {
   const month = []
 
   ourOwn.forEach((day, index) => {
-    if (index === 0 && day == false) {
+    if (index === 0) {
       const week = []
       month.push(week)
     }

@@ -30,24 +30,23 @@ function App() {
     .then((r) => r.json())
     .then((data) => {
       const sortedData = data.sort((a, b) => a.id - b.id)
-      const fixedMonth = sortedData;
       if (sortedData[0].weekday === "Monday") {
-        fixedMonth.splice(0, 0, "")
+        sortedData.splice(0, 0, "")
       }
       if (sortedData[0].weekday === "Tuesday") {
-        fixedMonth.splice(0, 0, "","")
+        sortedData.splice(0, 0, "","")
       }
       if (sortedData[0].weekday === "Wednesday") {
-        fixedMonth.splice(0, 0, "", "", "")
+        sortedData.splice(0, 0, "", "", "")
       }
       if (sortedData[0].weekday === "Thursday") {
-        fixedMonth.splice(0, 0, "", "", "", "")
+        sortedData.splice(0, 0, "", "", "", "")
       }
       if (sortedData[0].weekday === "Friday") {
-        fixedMonth.splice(0, 0, "", "", "", "","")
+        sortedData.splice(0, 0, "", "", "", "","")
       }
       if (sortedData[0].weekday === "Saturday") {
-        fixedMonth.splice(0, 0, "", "", "", "", "", "")
+        sortedData.splice(0, 0, "", "", "", "", "", "")
       }      
       setOurOwn(sortedData)
     })

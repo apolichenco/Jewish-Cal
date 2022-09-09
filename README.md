@@ -1,27 +1,30 @@
-# Joke Page
+# Calendar
 ### Overview of project
-This page was made so you can have a bunch of jokes at your disposal. You can fetch jokes to the page, pull up a random joke, or add your own joke.
+This page is a calendar of the Jewish year 5783, with all the holidays and parshas.
 
 ##### Features:
-   * Press "Fetch More Jokes" to add jokes
-   * The jokes will automatically go in the correct category
-   * Press "Random Joke" to pull up a random joke
-   * Use the dropdown to go to a specific category
-   * Press "Add A Joke", fill in a new joke and choose category
+   * See all the days of the month
+   * Dates, holidays, and parshas are all different colors
+   * Go from month to month with the Previous Month and Next Month buttons
+   * Show the list of events in the current shown month
+   * Add an event of your own
 
 ### Requirements
-* Have json.server installed
+* You need all the data from mydb.json, which can be made (a bit complicated) from the AllTheData component
 
 ### Installation Instructions
-* Fork and clone
+* Fork and install from github
+* Run nmp install in the terminal
 * Run json.server for db.json (json-server --watch db.json)
-* Open index.html in the browser
+* Run npm start in your terminal , and press y to allow another port to open up
+* Uncomment all the data from AllTheData component
+* Everything should show up
 
 ### Problems
-*     Part of the code in the fetchJokes function has a formula to stop repeated jokes from being posted, but doesn't work 100%. So another formula is needed at fetchUploadedJokes function. Would like to cut that down.
-* The random joke box doesn't go under the navbar.
-* Update the new add joke box.
+* I still have to work on styling
+* Want to add candle lighting times
+* Add a form to get candle loghting times based on written location
 
 ### Licensing
 * I used the following website: 
-        https://sv443.net/jokeapi/v2/
+        www.hebcal.com

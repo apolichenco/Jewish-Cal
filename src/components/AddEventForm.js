@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
 
 
-function AddEventForm({ourOwn, handleNew}) {
+function AddEventForm({handleNew, months}) {
   const [eventName, setEventName] = useState()
   const [newEventDate, setNewEventDate] = useState()
   const [eventMonth, setEventMonth] = useState("Tishrei")
   const [eventYear, setEventYear] = useState(5783)
-  // const [anotherMonth, setAnotherMonth] = useState([])
   
   let k = [""]
   let i = 1
@@ -14,11 +13,6 @@ function AddEventForm({ourOwn, handleNew}) {
     k[i]= i;
     i = i + 1;
   }
-
-  // useEffect(() => {
-  // fetch(`http://localhost:3000/${months[monthNumber]}`)
-  // .then((r) => r.json())
-  // .then((data) => {setAnotherMonth(data)})}, [handleSubmit])
 
   function handleEventName(e) {
     setEventName(e.target.value)
@@ -57,34 +51,29 @@ function AddEventForm({ourOwn, handleNew}) {
   }
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <label>Event Name</label><br></br>
-        <input type="text" id="event-name" name="event-name" onChange={handleEventName}></input><br></br>
+    <form onSubmit={handleSubmit}>
+      <div className="new-form">
+        <label >Event Name</label><br></br>
+        <input type="text" id="event-name" name="event-name" onChange={handleEventName} className="new-input"></input>
+      </div>
+      <div className="new-form">
         <label>Day:</label><br></br>
-        <select onChange={handleDayChange}>
+        <select onChange={handleDayChange} className="new-input">
           {k.map((number) => <option key={number} value={number}>{number}</option>)}
         </select><br></br>
+      </div>
+      <div className="new-form">
         <label>Choose Month:</label><br></br>
-        <select onChange={handleMonthChange}>
-          <option value={"Tishrei"}>Tishrei</option>
-          <option value={'Cheshvan'}>Cheshvan</option>
-          <option value={'Kislev'}>Kislev</option>
-          <option value={'Tevet'}>Tevet</option>
-          <option value={`Sh'vat`}>Sh'vat</option>
-          <option value={'Adar'}>Adar</option>
-          <option value={'Nisan'}>Nisan</option>
-          <option value={'Iyyar'}>Iyyar</option>
-          <option value={'Sivan'}>Sivan</option>         
-          <option value={'Tamuz'}>Tamuz</option>
-          <option value={'Av'}>Av</option>
-          <option value={'Elul'}>Elul</option>
+        <select onChange={handleMonthChange} className="new-input">
+          {months.map((month, index) => <option key={index} value={month}>{month}</option>)}
         </select><br></br>
-        <label >Year</label><br></br>
-        <input type="text" value={eventYear} onChange={handleYearChange}></input><br></br>
-        <input type="submit"></input>
-      </form>
-    </div>
+      </div>
+      <div className="new-form">
+        <label>Year</label><br></br>
+        <input type="text" value={eventYear} onChange={handleYearChange} className="new-input"></input><br></br>
+      </div>
+      <input type="submit" className="new-input"></input>
+    </form>
   );
 }
 

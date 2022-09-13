@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import Day from "./Day";
 
 
@@ -22,8 +22,8 @@ function Calendar({ourOwn, goToPreviousMonth, goToNextMonth}) {
 
   return (
     <div className='app'>
-      <button onClick={goToPreviousMonth}>Previous Month</button>
-      <button onClick={goToNextMonth}>Next Month</button>
+      <button onClick={goToPreviousMonth} id="previous">Previous Month</button>
+      <button onClick={goToNextMonth} id="next">Next Month</button>
       <table>
         <thead>
           <tr>

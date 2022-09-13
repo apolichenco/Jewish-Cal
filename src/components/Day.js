@@ -9,13 +9,13 @@ function Day({day}) {
 }
   const blue = {color: "blue"}
   const green = {color: "green"}
-  const orange = {color: "orange"}
+  const brown = {color: "brown"}
   const purple = {color: "purple"}
 
 
   return (
       <td>
-        <h4 style={orange}>{noYear ? noYear : null}</h4>
+        <h4 style={brown}>{noYear ? noYear : null}</h4>
         <h5 style={green}>{day.holiday ? day.holiday : null}</h5>
         <h5 style={purple}>{day.parsha ? day.parsha : null}</h5>
         <h5 style={green}>{day.roshChodesh ? day.roshChodesh : null}</h5>

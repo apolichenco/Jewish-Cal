@@ -3,7 +3,6 @@ import Calendar from "./Calendar";
 import Header from "./Header";
 import EventsList from "./EventsList"
 import AddEventForm from "./AddEventForm"
-import AllTheData from "./AllTheData";
 import { Route, Switch} from "react-router-dom"
  
 function App() {
@@ -67,26 +66,26 @@ function App() {
   }
 
   function goToPreviousMonth() {
-    if (monthNumber >= 0) {
+    if (monthNumber > 0) {
       setMonthNumber(monthNumber - 1)
     }
   }
 
   function goToNextMonth() {
-    if (monthNumber < 12) {
+    if (monthNumber < 11) {
       setMonthNumber(monthNumber + 1)
     }
   }
 
   return (
     <div>
-      <Header />
+      <Header  monthName={months[monthNumber]}/>
       <Switch>
         <Route path="/events">
           <EventsList ourOwn={ourOwn}/>
         </Route>
         <Route path="/add-event">
-          <AddEventForm ourOwn={ourOwn} handleNew={handleOurOwn}/>
+          <AddEventForm ourOwn={ourOwn} handleNew={handleOurOwn} months={months}/>
         </Route>
         <Route exact path="/">
           <Calendar ourOwn={ourOwn} goToPreviousMonth={goToPreviousMonth} goToNextMonth={goToNextMonth}/>

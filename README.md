@@ -10,14 +10,13 @@ This page is a calendar of the Jewish year 5783, with all the holidays and parsh
    * Add an event of your own
 
 ### Requirements
-* You need all the data from mydb.json, which can be made (a bit complicated) from the AllTheData component
+*To be able to connect to the db.json
 
 ### Installation Instructions
 * Fork and install from github
 * Run nmp install in the terminal
 * Run json.server for db.json (json-server --watch db.json)
 * Run npm start in your terminal , and press y to allow another port to open up
-* Uncomment all the data from AllTheData component
 * Everything should show up
 
 ### Problems

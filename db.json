@@ -771,7 +771,8 @@
       "hebrewDate": "16 Tevet 5783",
       "dateInHebrew": "ט״ז טבת",
       "month": " Tevet ",
-      "weekday": "Monday"
+      "weekday": "Monday",
+      "privateEvent": "Birthday!"
     },
     {
       "id": 20230114,

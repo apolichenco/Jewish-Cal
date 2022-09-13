@@ -1,36 +1,30 @@
 import React from "react";
 import {NavLink} from "react-router-dom"
 
-function Header() {
-
-  const linkStyles = {
-    display: "inline-block",
-    width: "50px",
-    padding: "12px",
-    margin: "0 6px 6px",
-    background: "blue",
-    textDecoration: "none",
-    color: "white",
-  };
+function Header({monthName}) {
 
   return (
     <div>
       <NavLink 
       to="./"
       exact
-      style={linkStyles}
-      activeStyle={{
-        background: "darkblue"
+      className="link-styles"
+      activeStyle={{        
+        background: "pink",
+        color: "black",
+        border: "3px solid rgb(162, 0, 255)",
       }}
       >
-        Calendar
+      {monthName}
       </NavLink>
       <NavLink 
       to="./events"
       exact
-      style={linkStyles}
+      className="link-styles"
       activeStyle={{
-        background: "darkblue"
+        background: "pink",
+        color: "black",
+        border: "3px solid rgb(162, 0, 255)",
       }}
       >
         Events List
@@ -38,9 +32,11 @@ function Header() {
       <NavLink 
       to="./add-event"
       exact
-      style={linkStyles}
-      activeStyle={{
-        background: "darkblue"
+      className="link-styles"
+      activeStyle={{        
+        background: "pink",
+        color: "black",
+        border: "3px solid rgb(162, 0, 255)",
       }}
       >
         Add Event

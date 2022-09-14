@@ -14,15 +14,30 @@ function Day({day}) {
 
 
   return (
-      <td>
-        <h4 style={brown}>{noYear ? noYear : null}</h4>
-        <h5 style={green}>{day.holiday ? day.holiday : null}</h5>
-        <h5 style={purple}>{day.parsha ? day.parsha : null}</h5>
-        <h5 style={green}>{day.roshChodesh ? day.roshChodesh : null}</h5>
-        <h5 style={blue}>{day.privateEvent ? day.privateEvent : null}</h5>
+      <td
+    // style={{
+    //   backgroundImage: `url(${day.image})`,
+    //   width: `10px`,
+    //   height: `25px`
+    //   }}
+      >
+          <h4 style={brown}>{noYear ? noYear : null}</h4>
+          <h5 style={green}>{day.holiday ? day.holiday : null}</h5>
+          <h5 style={purple}>{day.parsha ? day.parsha : null}</h5>
+          <h5 style={green}>{day.roshChodesh ? day.roshChodesh : null}</h5>
+          <h5 style={blue}>{day.privateEvent ? day.privateEvent : null}</h5>
+        {/* <img src={day.image} alt={day.imageName}></img> */}
       </td>
   );
 }
 
 export default Day;
+
+
+
+// style={{
+//   backgroundImage: `url(${day.image})`,
+//   width: `10px`,
+//   height: `25px`
+//   }}
 

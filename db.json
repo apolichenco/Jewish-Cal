@@ -1344,7 +1344,9 @@
       "month": "Nisan ",
       "weekday": "Thursday",
       "roshChodesh": "Rosh Chodesh Nisan",
-      "privateEvent": "Birthday!"
+      "privateEvent": "Birthday!",
+      "imageName": "Aharon Dovid",
+      "image": "https://www.w3schools.com/html/img_girl.jpg"
     },
     {
       "id": 20230324,

@@ -1,24 +1,13 @@
 import React from "react";
 import {NavLink} from "react-router-dom"
 
-function Header({monthName}) {
+function Header({}) {
 
   return (
-    <div>
+      <div>
+
       <NavLink 
-      to="./"
-      exact
-      className="link-styles"
-      activeStyle={{        
-        background: "pink",
-        color: "black",
-        border: "3px solid rgb(162, 0, 255)",
-      }}
-      >
-      {monthName}
-      </NavLink>
-      <NavLink 
-      to="./events"
+      to="./link"
       exact
       className="link-styles"
       activeStyle={{
@@ -27,10 +16,10 @@ function Header({monthName}) {
         border: "3px solid rgb(162, 0, 255)",
       }}
       >
-        Events List
+        List
       </NavLink>
       <NavLink 
-      to="./add-event"
+      to="./form"
       exact
       className="link-styles"
       activeStyle={{        
@@ -39,9 +28,9 @@ function Header({monthName}) {
         border: "3px solid rgb(162, 0, 255)",
       }}
       >
-        Add Event
+        Form
       </NavLink>
-    </div>
+      </div>
   );
 }
 

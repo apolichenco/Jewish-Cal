@@ -22,7 +22,7 @@ This page is a calendar of the Jewish year 5783, with all the holidays and parsh
 ### Problems
 * I still have to work on styling
 * Want to add candle lighting times
-* Add a form to get candle loghting times based on written location
+* Add a form to get candle lighting times based on written location
 
 ### Licensing
 * I used the following website: 

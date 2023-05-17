@@ -2,8 +2,8 @@ import React, {useState, useEffect} from 'react'
 
 function AllTheData() {
     // const [days, setDays] = useState([])
-    // const [hebdate, setheadebdate] = useState([])
-    // const [holiday, setheadoliday] = useState([])
+    // const [hebdate, setHebdate] = useState([])
+    // const [holiday, setHoliday] = useState([])
     // const [parashat, setParashat] = useState([])
     // const [roshchodesh, setRoshchodesh] = useState([])
   
@@ -17,10 +17,10 @@ function AllTheData() {
   
   
     // useEffect (() => {
-    //   setheadebdate(days.filter((day) => day.category === "hebdate"))
+    //   setHebdate(days.filter((day) => day.category === "hebdate"))
     // }, [days])
     // useEffect (() => {
-    //   setheadoliday(days.filter((day) => day.category === "holiday"))
+    //   setHoliday(days.filter((day) => day.category === "holiday"))
     // }, [days])
     // useEffect (() => {
     //   setParashat(days.filter((day) => day.category === "parashat"))

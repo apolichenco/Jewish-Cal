@@ -30,4 +30,4 @@ This page is a calendar of the Jewish year 5783, with all the holidays and parsh
 
 
 ### Pictures
-![Alt text](vscode-local:/c%3A/Users/koshe/OneDrive/Desktop/Screenshot%202023-05-25%20130818.jpg)
+![Screenshot 2023-05-25 130818](https://github.com/apolichenco/Jewish-Cal/assets/98846858/f29c7b88-0ac8-4965-880c-81deade57548)
